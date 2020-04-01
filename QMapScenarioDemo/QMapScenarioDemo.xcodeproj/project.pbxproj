@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B82BB662339F99700B7901B /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B82BB652339F99700B7901B /* QMapSDKUtils.framework */; };
+		7B82BB68233A14DF00B7901B /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B82BB67233A14DF00B7901B /* car@3x.png */; };
+		7B82BB6B233A20C200B7901B /* PointClusterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B82BB6A233A20C200B7901B /* PointClusterViewController.m */; };
+		7B82BB6D233A42CF00B7901B /* cluster.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B82BB6C233A42CF00B7901B /* cluster.txt */; };
+		7B82BB70233A44E000B7901B /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B82BB6F233A44E000B7901B /* PickMapPointViewController.m */; };
+		7BB5A94A23376B1300A14FDF /* SetMapCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5A94923376B1300A14FDF /* SetMapCenterViewController.m */; };
+		7BB5A94D2338736300A14FDF /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5A94C2338736300A14FDF /* QMapKit.bundle */; };
+		7BB5A950233876C500A14FDF /* LimitMapRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5A94F233876C500A14FDF /* LimitMapRectViewController.m */; };
+		7BB5A95323387BCD00A14FDF /* ShowsPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5A95223387BCD00A14FDF /* ShowsPoiViewController.m */; };
+		7BB5A9562338A2B400A14FDF /* SmoothMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5A9552338A2B400A14FDF /* SmoothMoveViewController.m */; };
+		7BB5A9592338A2E900A14FDF /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5A9582338A2E900A14FDF /* CustomGestureViewController.m */; };
+		7BB5A95B2338B1D400A14FDF /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5A95A2338B1D400A14FDF /* marker@2x.png */; };
+		7BB754252334C09600CC4E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754242334C09600CC4E2F /* AppDelegate.m */; };
+		7BB7542D2334C09700CC4E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB7542C2334C09700CC4E2F /* Assets.xcassets */; };
+		7BB754302334C09700CC4E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */; };
+		7BB754332334C09700CC4E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754322334C09700CC4E2F /* main.m */; };
+		7BB754442334C29900CC4E2F /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7543F2334C29900CC4E2F /* EntryViewController.m */; };
+		7BB754452334C29900CC4E2F /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754402334C29900CC4E2F /* EntryData.m */; };
+		7BB754462334C29900CC4E2F /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754422334C29900CC4E2F /* BaseMapViewController.m */; };
+		7BB7544B2334C37B00CC4E2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */; };
+		7BB7544D2334C38000CC4E2F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7544C2334C38000CC4E2F /* libc++.tbd */; };
+		E5B9482523D1AF6C004A4992 /* hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B9482423D1AF6C004A4992 /* hongbao.png */; };
+		E5E2A48823CC441600BDC2E3 /* ShowMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E2A48723CC441600BDC2E3 /* ShowMarkersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B82BB652339F99700B7901B /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
+		7B82BB67233A14DF00B7901B /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
+		7B82BB69233A20C200B7901B /* PointClusterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointClusterViewController.h; sourceTree = "<group>"; };
+		7B82BB6A233A20C200B7901B /* PointClusterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointClusterViewController.m; sourceTree = "<group>"; };
+		7B82BB6C233A42CF00B7901B /* cluster.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cluster.txt; sourceTree = "<group>"; };
+		7B82BB6E233A44E000B7901B /* PickMapPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
+		7B82BB6F233A44E000B7901B /* PickMapPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
+		7BB5A94823376B1300A14FDF /* SetMapCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetMapCenterViewController.h; sourceTree = "<group>"; };
+		7BB5A94923376B1300A14FDF /* SetMapCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetMapCenterViewController.m; sourceTree = "<group>"; };
+		7BB5A94C2338736300A14FDF /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		7BB5A94E233876C500A14FDF /* LimitMapRectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LimitMapRectViewController.h; sourceTree = "<group>"; };
+		7BB5A94F233876C500A14FDF /* LimitMapRectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LimitMapRectViewController.m; sourceTree = "<group>"; };
+		7BB5A95123387BCD00A14FDF /* ShowsPoiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowsPoiViewController.h; sourceTree = "<group>"; };
+		7BB5A95223387BCD00A14FDF /* ShowsPoiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowsPoiViewController.m; sourceTree = "<group>"; };
+		7BB5A9542338A2B400A14FDF /* SmoothMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmoothMoveViewController.h; sourceTree = "<group>"; };
+		7BB5A9552338A2B400A14FDF /* SmoothMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmoothMoveViewController.m; sourceTree = "<group>"; };
+		7BB5A9572338A2E900A14FDF /* CustomGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		7BB5A9582338A2E900A14FDF /* CustomGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		7BB5A95A2338B1D400A14FDF /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapScenarioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB754232334C09600CC4E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB754242334C09600CC4E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB7542C2334C09700CC4E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB7542F2334C09700CC4E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB754312334C09700CC4E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB754322334C09700CC4E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB7543D2334C29900CC4E2F /* EntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
+		7BB7543E2334C29900CC4E2F /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		7BB7543F2334C29900CC4E2F /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		7BB754402334C29900CC4E2F /* EntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
+		7BB754422334C29900CC4E2F /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		7BB754432334C29900CC4E2F /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7BB7544C2334C38000CC4E2F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E5B9482423D1AF6C004A4992 /* hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongbao.png; sourceTree = "<group>"; };
+		E5E2A48623CC441600BDC2E3 /* ShowMarkersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowMarkersViewController.h; sourceTree = "<group>"; };
+		E5E2A48723CC441600BDC2E3 /* ShowMarkersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowMarkersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB7541D2334C09600CC4E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B82BB662339F99700B7901B /* QMapSDKUtils.framework in Frameworks */,
+				7BB7544D2334C38000CC4E2F /* libc++.tbd in Frameworks */,
+				7BB7544B2334C37B00CC4E2F /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB5A94B2338736300A14FDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B9482423D1AF6C004A4992 /* hongbao.png */,
+				7B82BB6C233A42CF00B7901B /* cluster.txt */,
+				7B82BB67233A14DF00B7901B /* car@3x.png */,
+				7BB5A95A2338B1D400A14FDF /* marker@2x.png */,
+				7BB5A94C2338736300A14FDF /* QMapKit.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7BB754172334C09600CC4E2F = {
+			isa = PBXGroup;
+			children = (
+				7BB754222334C09600CC4E2F /* QMapScenarioDemo */,
+				7BB754212334C09600CC4E2F /* Products */,
+				7BB754472334C36F00CC4E2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB754212334C09600CC4E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB754222334C09600CC4E2F /* QMapScenarioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5A94B2338736300A14FDF /* Resources */,
+				7BB754392334C28C00CC4E2F /* Dependence */,
+				7BB7543C2334C29900CC4E2F /* Demos */,
+				7BB754232334C09600CC4E2F /* AppDelegate.h */,
+				7BB754242334C09600CC4E2F /* AppDelegate.m */,
+				7BB7542C2334C09700CC4E2F /* Assets.xcassets */,
+				7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */,
+				7BB754312334C09700CC4E2F /* Info.plist */,
+				7BB754322334C09700CC4E2F /* main.m */,
+			);
+			path = QMapScenarioDemo;
+			sourceTree = "<group>";
+		};
+		7BB754392334C28C00CC4E2F /* Dependence */ = {
+			isa = PBXGroup;
+			children = (
+				7B82BB652339F99700B7901B /* QMapSDKUtils.framework */,
+			);
+			path = Dependence;
+			sourceTree = "<group>";
+		};
+		7BB7543C2334C29900CC4E2F /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				7BB7543D2334C29900CC4E2F /* EntryData.h */,
+				7BB754402334C29900CC4E2F /* EntryData.m */,
+				7BB7543E2334C29900CC4E2F /* EntryViewController.h */,
+				7BB7543F2334C29900CC4E2F /* EntryViewController.m */,
+				7BB754412334C29900CC4E2F /* Controllers */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		7BB754412334C29900CC4E2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BB754432334C29900CC4E2F /* BaseMapViewController.h */,
+				7BB754422334C29900CC4E2F /* BaseMapViewController.m */,
+				7B82BB69233A20C200B7901B /* PointClusterViewController.h */,
+				7B82BB6A233A20C200B7901B /* PointClusterViewController.m */,
+				7B82BB6E233A44E000B7901B /* PickMapPointViewController.h */,
+				7B82BB6F233A44E000B7901B /* PickMapPointViewController.m */,
+				7BB5A94823376B1300A14FDF /* SetMapCenterViewController.h */,
+				7BB5A94923376B1300A14FDF /* SetMapCenterViewController.m */,
+				7BB5A94E233876C500A14FDF /* LimitMapRectViewController.h */,
+				7BB5A94F233876C500A14FDF /* LimitMapRectViewController.m */,
+				7BB5A95123387BCD00A14FDF /* ShowsPoiViewController.h */,
+				7BB5A95223387BCD00A14FDF /* ShowsPoiViewController.m */,
+				7BB5A9542338A2B400A14FDF /* SmoothMoveViewController.h */,
+				7BB5A9552338A2B400A14FDF /* SmoothMoveViewController.m */,
+				7BB5A9572338A2E900A14FDF /* CustomGestureViewController.h */,
+				7BB5A9582338A2E900A14FDF /* CustomGestureViewController.m */,
+				E5E2A48623CC441600BDC2E3 /* ShowMarkersViewController.h */,
+				E5E2A48723CC441600BDC2E3 /* ShowMarkersViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7BB754472334C36F00CC4E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB7544C2334C38000CC4E2F /* libc++.tbd */,
+				7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB7541F2334C09600CC4E2F /* QMapScenarioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB754362334C09700CC4E2F /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */;
+			buildPhases = (
+				7BB7541C2334C09600CC4E2F /* Sources */,
+				7BB7541D2334C09600CC4E2F /* Frameworks */,
+				7BB7541E2334C09600CC4E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMapScenarioDemo;
+			productName = QMapScenarioDemo;
+			productReference = 7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB754182334C09600CC4E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					7BB7541F2334C09600CC4E2F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 7BB7541B2334C09600CC4E2F /* Build configuration list for PBXProject "QMapScenarioDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB754172334C09600CC4E2F;
+			productRefGroup = 7BB754212334C09600CC4E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB7541F2334C09600CC4E2F /* QMapScenarioDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB7541E2334C09600CC4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5A95B2338B1D400A14FDF /* marker@2x.png in Resources */,
+				E5B9482523D1AF6C004A4992 /* hongbao.png in Resources */,
+				7BB754302334C09700CC4E2F /* LaunchScreen.storyboard in Resources */,
+				7BB5A94D2338736300A14FDF /* QMapKit.bundle in Resources */,
+				7B82BB6D233A42CF00B7901B /* cluster.txt in Resources */,
+				7B82BB68233A14DF00B7901B /* car@3x.png in Resources */,
+				7BB7542D2334C09700CC4E2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB7541C2334C09600CC4E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB754332334C09700CC4E2F /* main.m in Sources */,
+				7BB754462334C29900CC4E2F /* BaseMapViewController.m in Sources */,
+				7B82BB6B233A20C200B7901B /* PointClusterViewController.m in Sources */,
+				7BB754442334C29900CC4E2F /* EntryViewController.m in Sources */,
+				7BB754452334C29900CC4E2F /* EntryData.m in Sources */,
+				7B82BB70233A44E000B7901B /* PickMapPointViewController.m in Sources */,
+				7BB754252334C09600CC4E2F /* AppDelegate.m in Sources */,
+				7BB5A9562338A2B400A14FDF /* SmoothMoveViewController.m in Sources */,
+				7BB5A950233876C500A14FDF /* LimitMapRectViewController.m in Sources */,
+				E5E2A48823CC441600BDC2E3 /* ShowMarkersViewController.m in Sources */,
+				7BB5A95323387BCD00A14FDF /* ShowsPoiViewController.m in Sources */,
+				7BB5A94A23376B1300A14FDF /* SetMapCenterViewController.m in Sources */,
+				7BB5A9592338A2E900A14FDF /* CustomGestureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB7542F2334C09700CC4E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB754342334C09700CC4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB754352334C09700CC4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB754372334C09700CC4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QPMFXR3EA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QMapScenarioDemo;
+				PRODUCT_NAME = QMapScenarioDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB754382334C09700CC4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QPMFXR3EA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QMapScenarioDemo;
+				PRODUCT_NAME = QMapScenarioDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB7541B2334C09600CC4E2F /* Build configuration list for PBXProject "QMapScenarioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB754342334C09700CC4E2F /* Debug */,
+				7BB754352334C09700CC4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB754362334C09700CC4E2F /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB754372334C09700CC4E2F /* Debug */,
+				7BB754382334C09700CC4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB754182334C09600CC4E2F /* Project object */;
+}
