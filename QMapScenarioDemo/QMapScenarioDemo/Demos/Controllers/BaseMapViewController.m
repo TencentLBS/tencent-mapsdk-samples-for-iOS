@@ -65,6 +65,12 @@
     [self setupNavigationBar];
     
     [self setupMapView];
+    
+    [self.mapView setForeignLanguage:QMapLanguage_zh];
+}
+
+- (void)mapViewInitComplete:(QMapView *)mapView {
+    NSLog(@"mapViewInitComplete");
 }
 
 @end
