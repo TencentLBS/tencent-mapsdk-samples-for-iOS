@@ -39,7 +39,6 @@
 		E50E3E4624A09E0500202937 /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4524A09E0500202937 /* DeliveryModel.m */; };
 		E50E3E4924A0A2BD00202937 /* DeliveryGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4824A0A2BD00202937 /* DeliveryGoodsView.m */; };
 		E50E3E4C24A0A2CA00202937 /* DeliveryGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4B24A0A2CA00202937 /* DeliveryGoodsModel.m */; };
-		E50E3E5524A9D22800202937 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E5424A9D22800202937 /* TrackViewController.m */; };
 		E532FBE2248F31D3000820CF /* DeliveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E532FBE1248F31D3000820CF /* DeliveryController.m */; };
 		E5970AD2247CBEB000A970CD /* AnnotationRotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5970AD1247CBEB000A970CD /* AnnotationRotateController.m */; };
 		E5AE0F71247667C0005BD9ED /* MutiInfoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F70247667C0005BD9ED /* MutiInfoAnnotationView.m */; };
@@ -108,8 +107,6 @@
 		E50E3E4824A0A2BD00202937 /* DeliveryGoodsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsView.m; sourceTree = "<group>"; };
 		E50E3E4A24A0A2CA00202937 /* DeliveryGoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsModel.h; sourceTree = "<group>"; };
 		E50E3E4B24A0A2CA00202937 /* DeliveryGoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsModel.m; sourceTree = "<group>"; };
-		E50E3E5324A9D22800202937 /* TrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
-		E50E3E5424A9D22800202937 /* TrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
 		E532FBE0248F31D3000820CF /* DeliveryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryController.h; sourceTree = "<group>"; };
 		E532FBE1248F31D3000820CF /* DeliveryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryController.m; sourceTree = "<group>"; };
 		E5970AD0247CBEB000A970CD /* AnnotationRotateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationRotateController.h; sourceTree = "<group>"; };
@@ -215,7 +212,6 @@
 				E50D49A8246E439E009EACC4 /* Overlay */,
 				E50D49AF246E439E009EACC4 /* Trail */,
 				E532FBDF248F31A4000820CF /* Delivery */,
-				E50E3E5224A9D21C00202937 /* Track */,
 				7BB754432334C29900CC4E2F /* BaseMapViewController.h */,
 				7BB754422334C29900CC4E2F /* BaseMapViewController.m */,
 			);
@@ -334,15 +330,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E50E3E5224A9D21C00202937 /* Track */ = {
-			isa = PBXGroup;
-			children = (
-				E50E3E5324A9D22800202937 /* TrackViewController.h */,
-				E50E3E5424A9D22800202937 /* TrackViewController.m */,
-			);
-			path = Track;
-			sourceTree = "<group>";
-		};
 		E532FBDF248F31A4000820CF /* Delivery */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,7 +378,7 @@
 		7BB754182334C09600CC4E2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = Tencent;
 				TargetAttributes = {
 					7BB7541F2334C09600CC4E2F = {
@@ -442,7 +429,6 @@
 				E50E3E4224A09D3600202937 /* DeliveryRouteView.m in Sources */,
 				E5AE0F7424766B4E005BD9ED /* MutiInfoWindowController.m in Sources */,
 				E5AE0F7F2477A758005BD9ED /* ImageInfoWindowView.m in Sources */,
-				E50E3E5524A9D22800202937 /* TrackViewController.m in Sources */,
 				7BB754332334C09700CC4E2F /* main.m in Sources */,
 				E50D49A6246BA3BA009EACC4 /* CircleAnnotationView.m in Sources */,
 				E5AE0F7824768326005BD9ED /* MutiInfoAnnotation.m in Sources */,
@@ -513,6 +499,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -572,6 +559,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -611,7 +599,7 @@
 					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,7 +628,7 @@
 					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

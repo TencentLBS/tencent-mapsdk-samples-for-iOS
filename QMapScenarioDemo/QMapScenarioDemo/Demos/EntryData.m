@@ -251,26 +251,6 @@
         }
     }
     
-    // 轨迹SDK Section.
-    {
-        Section *section = [[Section alloc] init];
-        section.title = @"轨迹SDK";
-        NSMutableArray<Cell *> *cellArray = [NSMutableArray array];
-        section.cells = cellArray;
-        
-        [sectionArray addObject:section];
-        
-        // 定位标跟随手机朝向移动 Cell.
-        {
-            Cell *cell = [[Cell alloc] init];
-            
-            cell.title = @"轨迹SDK采集示例";
-            cell.controllerClassName = @"TrackViewController";
-            
-            [cellArray addObject:cell];
-        }
-    }
-    
     return entry;
 }
 
