@@ -3,365 +3,388 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B82BB662339F99700B7901B /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B82BB652339F99700B7901B /* QMapSDKUtils.framework */; };
-		7B82BB68233A14DF00B7901B /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B82BB67233A14DF00B7901B /* car@3x.png */; };
-		7B82BB6D233A42CF00B7901B /* cluster.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B82BB6C233A42CF00B7901B /* cluster.txt */; };
-		7BB5A95B2338B1D400A14FDF /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5A95A2338B1D400A14FDF /* marker@2x.png */; };
-		7BB754252334C09600CC4E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754242334C09600CC4E2F /* AppDelegate.m */; };
-		7BB754302334C09700CC4E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */; };
-		7BB754332334C09700CC4E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754322334C09700CC4E2F /* main.m */; };
-		7BB754442334C29900CC4E2F /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7543F2334C29900CC4E2F /* EntryViewController.m */; };
-		7BB754452334C29900CC4E2F /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754402334C29900CC4E2F /* EntryData.m */; };
-		7BB754462334C29900CC4E2F /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB754422334C29900CC4E2F /* BaseMapViewController.m */; };
-		7BB7544B2334C37B00CC4E2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */; };
-		7BB7544D2334C38000CC4E2F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7544C2334C38000CC4E2F /* libc++.tbd */; };
-		E50D498A24690017009EACC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50D498924690017009EACC4 /* Assets.xcassets */; };
-		E50D49A6246BA3BA009EACC4 /* CircleAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49A5246BA3BA009EACC4 /* CircleAnnotationView.m */; };
-		E50D49C7246E439E009EACC4 /* ShowsPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49A9246E439E009EACC4 /* ShowsPoiViewController.m */; };
-		E50D49C8246E439E009EACC4 /* MarkerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49AA246E439E009EACC4 /* MarkerAnimationController.m */; };
-		E50D49C9246E439E009EACC4 /* HideBuildingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49AD246E439E009EACC4 /* HideBuildingController.m */; };
-		E50D49CA246E439E009EACC4 /* SmoothMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49B1246E439E009EACC4 /* SmoothMoveViewController.m */; };
-		E50D49CB246E439E009EACC4 /* SetMapCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49B5246E439E009EACC4 /* SetMapCenterViewController.m */; };
-		E50D49CC246E439E009EACC4 /* LimitMapRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49B7246E439E009EACC4 /* LimitMapRectViewController.m */; };
-		E50D49CD246E439E009EACC4 /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49B8246E439E009EACC4 /* PickMapPointViewController.m */; };
-		E50D49CE246E439E009EACC4 /* PointClusterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49B9246E439E009EACC4 /* PointClusterViewController.m */; };
-		E50D49CF246E439E009EACC4 /* ShowMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49BA246E439E009EACC4 /* ShowMarkersViewController.m */; };
-		E50D49D0246E439E009EACC4 /* GeofencingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49BD246E439E009EACC4 /* GeofencingController.m */; };
-		E50D49D1246E439E009EACC4 /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49C0246E439E009EACC4 /* CustomGestureViewController.m */; };
-		E50D49D2246E439E009EACC4 /* LocationCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49C5246E439E009EACC4 /* LocationCircleController.m */; };
-		E50D49D3246E439E009EACC4 /* LocationIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49C6246E439E009EACC4 /* LocationIconController.m */; };
-		E50D49D6246E43FC009EACC4 /* ShowMarkerCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D49D5246E43FC009EACC4 /* ShowMarkerCenterController.m */; };
-		E50E3E4224A09D3600202937 /* DeliveryRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4124A09D3600202937 /* DeliveryRouteView.m */; };
-		E50E3E4624A09E0500202937 /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4524A09E0500202937 /* DeliveryModel.m */; };
-		E50E3E4924A0A2BD00202937 /* DeliveryGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4824A0A2BD00202937 /* DeliveryGoodsView.m */; };
-		E50E3E4C24A0A2CA00202937 /* DeliveryGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E3E4B24A0A2CA00202937 /* DeliveryGoodsModel.m */; };
-		E532FBE2248F31D3000820CF /* DeliveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E532FBE1248F31D3000820CF /* DeliveryController.m */; };
-		E5970AD2247CBEB000A970CD /* AnnotationRotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5970AD1247CBEB000A970CD /* AnnotationRotateController.m */; };
-		E5AE0F71247667C0005BD9ED /* MutiInfoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F70247667C0005BD9ED /* MutiInfoAnnotationView.m */; };
-		E5AE0F7424766B4E005BD9ED /* MutiInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F7324766B4E005BD9ED /* MutiInfoWindowController.m */; };
-		E5AE0F7824768326005BD9ED /* MutiInfoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F7724768326005BD9ED /* MutiInfoAnnotation.m */; };
-		E5AE0F7C2477A74D005BD9ED /* TitleInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F7B2477A74D005BD9ED /* TitleInfoWindowView.m */; };
-		E5AE0F7F2477A758005BD9ED /* ImageInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE0F7E2477A758005BD9ED /* ImageInfoWindowView.m */; };
-		E5B9482523D1AF6C004A4992 /* hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B9482423D1AF6C004A4992 /* hongbao.png */; };
+		F6F5185028FD5B1D00E70A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5184F28FD5B1D00E70A9D /* AppDelegate.m */; };
+		F6F5185928FD5B1D00E70A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F5185728FD5B1D00E70A9D /* Main.storyboard */; };
+		F6F5185B28FD5B1E00E70A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F5185A28FD5B1E00E70A9D /* Assets.xcassets */; };
+		F6F5185E28FD5B1E00E70A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F5185C28FD5B1E00E70A9D /* LaunchScreen.storyboard */; };
+		F6F5186128FD5B1E00E70A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5186028FD5B1E00E70A9D /* main.m */; };
+		F6F518BD28FD5C0200E70A9D /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5186A28FD5C0100E70A9D /* EntryViewController.m */; };
+		F6F518BE28FD5C0200E70A9D /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5186B28FD5C0100E70A9D /* EntryData.m */; };
+		F6F518BF28FD5C0200E70A9D /* ShowsPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5186D28FD5C0100E70A9D /* ShowsPoiViewController.m */; };
+		F6F518C028FD5C0200E70A9D /* SetMapCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187028FD5C0100E70A9D /* SetMapCenterViewController.m */; };
+		F6F518C128FD5C0200E70A9D /* SmoothMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187428FD5C0100E70A9D /* SmoothMoveViewController.m */; };
+		F6F518C228FD5C0200E70A9D /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187528FD5C0100E70A9D /* BaseMapViewController.m */; };
+		F6F518C328FD5C0200E70A9D /* LimitMapRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187628FD5C0100E70A9D /* LimitMapRectViewController.m */; };
+		F6F518C428FD5C0200E70A9D /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187728FD5C0100E70A9D /* CustomGestureViewController.m */; };
+		F6F518C528FD5C0200E70A9D /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187828FD5C0100E70A9D /* PickMapPointViewController.m */; };
+		F6F518C628FD5C0200E70A9D /* PointClusterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187928FD5C0100E70A9D /* PointClusterViewController.m */; };
+		F6F518C728FD5C0200E70A9D /* LocationCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187D28FD5C0100E70A9D /* LocationCircleController.m */; };
+		F6F518C828FD5C0200E70A9D /* LocationIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5187E28FD5C0100E70A9D /* LocationIconController.m */; };
+		F6F518C928FD5C0200E70A9D /* ShowMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188028FD5C0100E70A9D /* ShowMarkersViewController.m */; };
+		F6F518CA28FD5C0200E70A9D /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188228FD5C0100E70A9D /* CustomGestureViewController.m */; };
+		F6F518CB28FD5C0200E70A9D /* SmoothMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188528FD5C0100E70A9D /* SmoothMoveViewController.m */; };
+		F6F518CC28FD5C0200E70A9D /* DeliveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188728FD5C0100E70A9D /* DeliveryController.m */; };
+		F6F518CD28FD5C0200E70A9D /* DeliveryGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188928FD5C0100E70A9D /* DeliveryGoodsModel.m */; };
+		F6F518CE28FD5C0200E70A9D /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5188C28FD5C0100E70A9D /* DeliveryModel.m */; };
+		F6F518CF28FD5C0200E70A9D /* DeliveryGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189028FD5C0100E70A9D /* DeliveryGoodsView.m */; };
+		F6F518D028FD5C0200E70A9D /* DeliveryRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189128FD5C0100E70A9D /* DeliveryRouteView.m */; };
+		F6F518D128FD5C0200E70A9D /* ShowsPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189628FD5C0100E70A9D /* ShowsPoiViewController.m */; };
+		F6F518D228FD5C0200E70A9D /* MarkerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189828FD5C0100E70A9D /* MarkerAnimationController.m */; };
+		F6F518D328FD5C0200E70A9D /* HideBuildingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189C28FD5C0100E70A9D /* HideBuildingController.m */; };
+		F6F518D428FD5C0200E70A9D /* MutiInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189E28FD5C0100E70A9D /* MutiInfoWindowController.m */; };
+		F6F518D528FD5C0200E70A9D /* AnnotationRotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5189F28FD5C0100E70A9D /* AnnotationRotateController.m */; };
+		F6F518D628FD5C0200E70A9D /* SetMapCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518A528FD5C0200E70A9D /* SetMapCenterViewController.m */; };
+		F6F518D728FD5C0200E70A9D /* LimitMapRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518A728FD5C0200E70A9D /* LimitMapRectViewController.m */; };
+		F6F518D828FD5C0200E70A9D /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518A828FD5C0200E70A9D /* PickMapPointViewController.m */; };
+		F6F518D928FD5C0200E70A9D /* PointClusterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518A928FD5C0200E70A9D /* PointClusterViewController.m */; };
+		F6F518DA28FD5C0200E70A9D /* ShowMarkerCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518AA28FD5C0200E70A9D /* ShowMarkerCenterController.m */; };
+		F6F518DB28FD5C0200E70A9D /* ShowMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518AB28FD5C0200E70A9D /* ShowMarkersViewController.m */; };
+		F6F518DC28FD5C0200E70A9D /* GeofencingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518AE28FD5C0200E70A9D /* GeofencingController.m */; };
+		F6F518DD28FD5C0200E70A9D /* MutiInfoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518B428FD5C0200E70A9D /* MutiInfoAnnotationView.m */; };
+		F6F518DE28FD5C0200E70A9D /* ImageInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518B828FD5C0200E70A9D /* ImageInfoWindowView.m */; };
+		F6F518DF28FD5C0200E70A9D /* TitleInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518B928FD5C0200E70A9D /* TitleInfoWindowView.m */; };
+		F6F518E028FD5C0200E70A9D /* CircleAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518BA28FD5C0200E70A9D /* CircleAnnotationView.m */; };
+		F6F518E128FD5C0200E70A9D /* MutiInfoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F518BB28FD5C0200E70A9D /* MutiInfoAnnotation.m */; };
+		F6F518E828FD5C2200E70A9D /* cluster.txt in Resources */ = {isa = PBXBuildFile; fileRef = F6F518E428FD5C2200E70A9D /* cluster.txt */; };
+		F6F518E928FD5C2200E70A9D /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F518E528FD5C2200E70A9D /* car@3x.png */; };
+		F6F518EA28FD5C2200E70A9D /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F518E628FD5C2200E70A9D /* marker@2x.png */; };
+		F6F518EB28FD5C2200E70A9D /* hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F518E728FD5C2200E70A9D /* hongbao.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B82BB652339F99700B7901B /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
-		7B82BB67233A14DF00B7901B /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
-		7B82BB6C233A42CF00B7901B /* cluster.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cluster.txt; sourceTree = "<group>"; };
-		7BB5A95A2338B1D400A14FDF /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
-		7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapScenarioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BB754232334C09600CC4E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7BB754242334C09600CC4E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BB7542F2334C09700CC4E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BB754312334C09700CC4E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BB754322334C09700CC4E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7BB7543D2334C29900CC4E2F /* EntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
-		7BB7543E2334C29900CC4E2F /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
-		7BB7543F2334C29900CC4E2F /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
-		7BB754402334C29900CC4E2F /* EntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
-		7BB754422334C29900CC4E2F /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
-		7BB754432334C29900CC4E2F /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
-		7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		7BB7544C2334C38000CC4E2F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		E50D498924690017009EACC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E50D49A4246BA3BA009EACC4 /* CircleAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleAnnotationView.h; sourceTree = "<group>"; };
-		E50D49A5246BA3BA009EACC4 /* CircleAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleAnnotationView.m; sourceTree = "<group>"; };
-		E50D49A9246E439E009EACC4 /* ShowsPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsPoiViewController.m; sourceTree = "<group>"; };
-		E50D49AA246E439E009EACC4 /* MarkerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnimationController.m; sourceTree = "<group>"; };
-		E50D49AB246E439E009EACC4 /* HideBuildingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideBuildingController.h; sourceTree = "<group>"; };
-		E50D49AC246E439E009EACC4 /* ShowsPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsPoiViewController.h; sourceTree = "<group>"; };
-		E50D49AD246E439E009EACC4 /* HideBuildingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideBuildingController.m; sourceTree = "<group>"; };
-		E50D49AE246E439E009EACC4 /* MarkerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnimationController.h; sourceTree = "<group>"; };
-		E50D49B0246E439E009EACC4 /* SmoothMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMoveViewController.h; sourceTree = "<group>"; };
-		E50D49B1246E439E009EACC4 /* SmoothMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMoveViewController.m; sourceTree = "<group>"; };
-		E50D49B3246E439E009EACC4 /* ShowMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkersViewController.h; sourceTree = "<group>"; };
-		E50D49B4246E439E009EACC4 /* PointClusterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointClusterViewController.h; sourceTree = "<group>"; };
-		E50D49B5246E439E009EACC4 /* SetMapCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMapCenterViewController.m; sourceTree = "<group>"; };
-		E50D49B6246E439E009EACC4 /* GeofencingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofencingController.h; sourceTree = "<group>"; };
-		E50D49B7246E439E009EACC4 /* LimitMapRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitMapRectViewController.m; sourceTree = "<group>"; };
-		E50D49B8246E439E009EACC4 /* PickMapPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
-		E50D49B9246E439E009EACC4 /* PointClusterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointClusterViewController.m; sourceTree = "<group>"; };
-		E50D49BA246E439E009EACC4 /* ShowMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkersViewController.m; sourceTree = "<group>"; };
-		E50D49BB246E439E009EACC4 /* SetMapCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMapCenterViewController.h; sourceTree = "<group>"; };
-		E50D49BC246E439E009EACC4 /* LimitMapRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitMapRectViewController.h; sourceTree = "<group>"; };
-		E50D49BD246E439E009EACC4 /* GeofencingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofencingController.m; sourceTree = "<group>"; };
-		E50D49BE246E439E009EACC4 /* PickMapPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
-		E50D49C0246E439E009EACC4 /* CustomGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
-		E50D49C1246E439E009EACC4 /* CustomGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
-		E50D49C3246E439E009EACC4 /* LocationIconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIconController.h; sourceTree = "<group>"; };
-		E50D49C4246E439E009EACC4 /* LocationCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCircleController.h; sourceTree = "<group>"; };
-		E50D49C5246E439E009EACC4 /* LocationCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCircleController.m; sourceTree = "<group>"; };
-		E50D49C6246E439E009EACC4 /* LocationIconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIconController.m; sourceTree = "<group>"; };
-		E50D49D4246E43FC009EACC4 /* ShowMarkerCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowMarkerCenterController.h; sourceTree = "<group>"; };
-		E50D49D5246E43FC009EACC4 /* ShowMarkerCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowMarkerCenterController.m; sourceTree = "<group>"; };
-		E50E3E4024A09D3600202937 /* DeliveryRouteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryRouteView.h; sourceTree = "<group>"; };
-		E50E3E4124A09D3600202937 /* DeliveryRouteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryRouteView.m; sourceTree = "<group>"; };
-		E50E3E4424A09E0500202937 /* DeliveryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryModel.h; sourceTree = "<group>"; };
-		E50E3E4524A09E0500202937 /* DeliveryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryModel.m; sourceTree = "<group>"; };
-		E50E3E4724A0A2BD00202937 /* DeliveryGoodsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsView.h; sourceTree = "<group>"; };
-		E50E3E4824A0A2BD00202937 /* DeliveryGoodsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsView.m; sourceTree = "<group>"; };
-		E50E3E4A24A0A2CA00202937 /* DeliveryGoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsModel.h; sourceTree = "<group>"; };
-		E50E3E4B24A0A2CA00202937 /* DeliveryGoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsModel.m; sourceTree = "<group>"; };
-		E532FBE0248F31D3000820CF /* DeliveryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryController.h; sourceTree = "<group>"; };
-		E532FBE1248F31D3000820CF /* DeliveryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryController.m; sourceTree = "<group>"; };
-		E5970AD0247CBEB000A970CD /* AnnotationRotateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationRotateController.h; sourceTree = "<group>"; };
-		E5970AD1247CBEB000A970CD /* AnnotationRotateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationRotateController.m; sourceTree = "<group>"; };
-		E5AE0F6F247667C0005BD9ED /* MutiInfoAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotationView.h; sourceTree = "<group>"; };
-		E5AE0F70247667C0005BD9ED /* MutiInfoAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotationView.m; sourceTree = "<group>"; };
-		E5AE0F7224766B4E005BD9ED /* MutiInfoWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiInfoWindowController.h; sourceTree = "<group>"; };
-		E5AE0F7324766B4E005BD9ED /* MutiInfoWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiInfoWindowController.m; sourceTree = "<group>"; };
-		E5AE0F7624768326005BD9ED /* MutiInfoAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotation.h; sourceTree = "<group>"; };
-		E5AE0F7724768326005BD9ED /* MutiInfoAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotation.m; sourceTree = "<group>"; };
-		E5AE0F7A2477A74D005BD9ED /* TitleInfoWindowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleInfoWindowView.h; sourceTree = "<group>"; };
-		E5AE0F7B2477A74D005BD9ED /* TitleInfoWindowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleInfoWindowView.m; sourceTree = "<group>"; };
-		E5AE0F7D2477A758005BD9ED /* ImageInfoWindowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageInfoWindowView.h; sourceTree = "<group>"; };
-		E5AE0F7E2477A758005BD9ED /* ImageInfoWindowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageInfoWindowView.m; sourceTree = "<group>"; };
-		E5B9482423D1AF6C004A4992 /* hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongbao.png; sourceTree = "<group>"; };
+		F6F5184B28FD5B1D00E70A9D /* QMapScenarioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapScenarioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F5184E28FD5B1D00E70A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6F5184F28FD5B1D00E70A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6F5185828FD5B1D00E70A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6F5185A28FD5B1E00E70A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F5185D28FD5B1E00E70A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6F5185F28FD5B1E00E70A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F5186028FD5B1E00E70A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F5186828FD5C0100E70A9D /* EntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
+		F6F5186928FD5C0100E70A9D /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		F6F5186A28FD5C0100E70A9D /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		F6F5186B28FD5C0100E70A9D /* EntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
+		F6F5186D28FD5C0100E70A9D /* ShowsPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsPoiViewController.m; sourceTree = "<group>"; };
+		F6F5186E28FD5C0100E70A9D /* ShowMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkersViewController.h; sourceTree = "<group>"; };
+		F6F5186F28FD5C0100E70A9D /* PointClusterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointClusterViewController.h; sourceTree = "<group>"; };
+		F6F5187028FD5C0100E70A9D /* SetMapCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMapCenterViewController.m; sourceTree = "<group>"; };
+		F6F5187128FD5C0100E70A9D /* SmoothMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMoveViewController.h; sourceTree = "<group>"; };
+		F6F5187328FD5C0100E70A9D /* SmoothMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMoveViewController.h; sourceTree = "<group>"; };
+		F6F5187428FD5C0100E70A9D /* SmoothMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMoveViewController.m; sourceTree = "<group>"; };
+		F6F5187528FD5C0100E70A9D /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		F6F5187628FD5C0100E70A9D /* LimitMapRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitMapRectViewController.m; sourceTree = "<group>"; };
+		F6F5187728FD5C0100E70A9D /* CustomGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		F6F5187828FD5C0100E70A9D /* PickMapPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
+		F6F5187928FD5C0100E70A9D /* PointClusterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointClusterViewController.m; sourceTree = "<group>"; };
+		F6F5187B28FD5C0100E70A9D /* LocationIconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIconController.h; sourceTree = "<group>"; };
+		F6F5187C28FD5C0100E70A9D /* LocationCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCircleController.h; sourceTree = "<group>"; };
+		F6F5187D28FD5C0100E70A9D /* LocationCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCircleController.m; sourceTree = "<group>"; };
+		F6F5187E28FD5C0100E70A9D /* LocationIconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIconController.m; sourceTree = "<group>"; };
+		F6F5187F28FD5C0100E70A9D /* ShowsPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsPoiViewController.h; sourceTree = "<group>"; };
+		F6F5188028FD5C0100E70A9D /* ShowMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkersViewController.m; sourceTree = "<group>"; };
+		F6F5188228FD5C0100E70A9D /* CustomGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		F6F5188328FD5C0100E70A9D /* CustomGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		F6F5188428FD5C0100E70A9D /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		F6F5188528FD5C0100E70A9D /* SmoothMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMoveViewController.m; sourceTree = "<group>"; };
+		F6F5188728FD5C0100E70A9D /* DeliveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryController.m; sourceTree = "<group>"; };
+		F6F5188928FD5C0100E70A9D /* DeliveryGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsModel.m; sourceTree = "<group>"; };
+		F6F5188A28FD5C0100E70A9D /* DeliveryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryModel.h; sourceTree = "<group>"; };
+		F6F5188B28FD5C0100E70A9D /* DeliveryGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsModel.h; sourceTree = "<group>"; };
+		F6F5188C28FD5C0100E70A9D /* DeliveryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryModel.m; sourceTree = "<group>"; };
+		F6F5188E28FD5C0100E70A9D /* DeliveryGoodsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsView.h; sourceTree = "<group>"; };
+		F6F5188F28FD5C0100E70A9D /* DeliveryRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryRouteView.h; sourceTree = "<group>"; };
+		F6F5189028FD5C0100E70A9D /* DeliveryGoodsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsView.m; sourceTree = "<group>"; };
+		F6F5189128FD5C0100E70A9D /* DeliveryRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryRouteView.m; sourceTree = "<group>"; };
+		F6F5189228FD5C0100E70A9D /* DeliveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryController.h; sourceTree = "<group>"; };
+		F6F5189328FD5C0100E70A9D /* SetMapCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMapCenterViewController.h; sourceTree = "<group>"; };
+		F6F5189428FD5C0100E70A9D /* LimitMapRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitMapRectViewController.h; sourceTree = "<group>"; };
+		F6F5189628FD5C0100E70A9D /* ShowsPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsPoiViewController.m; sourceTree = "<group>"; };
+		F6F5189728FD5C0100E70A9D /* MutiInfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoWindowController.h; sourceTree = "<group>"; };
+		F6F5189828FD5C0100E70A9D /* MarkerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnimationController.m; sourceTree = "<group>"; };
+		F6F5189928FD5C0100E70A9D /* HideBuildingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideBuildingController.h; sourceTree = "<group>"; };
+		F6F5189A28FD5C0100E70A9D /* AnnotationRotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationRotateController.h; sourceTree = "<group>"; };
+		F6F5189B28FD5C0100E70A9D /* ShowsPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsPoiViewController.h; sourceTree = "<group>"; };
+		F6F5189C28FD5C0100E70A9D /* HideBuildingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideBuildingController.m; sourceTree = "<group>"; };
+		F6F5189D28FD5C0100E70A9D /* MarkerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnimationController.h; sourceTree = "<group>"; };
+		F6F5189E28FD5C0100E70A9D /* MutiInfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoWindowController.m; sourceTree = "<group>"; };
+		F6F5189F28FD5C0100E70A9D /* AnnotationRotateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationRotateController.m; sourceTree = "<group>"; };
+		F6F518A028FD5C0100E70A9D /* PickMapPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
+		F6F518A228FD5C0100E70A9D /* ShowMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkersViewController.h; sourceTree = "<group>"; };
+		F6F518A328FD5C0100E70A9D /* ShowMarkerCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkerCenterController.h; sourceTree = "<group>"; };
+		F6F518A428FD5C0200E70A9D /* PointClusterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointClusterViewController.h; sourceTree = "<group>"; };
+		F6F518A528FD5C0200E70A9D /* SetMapCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMapCenterViewController.m; sourceTree = "<group>"; };
+		F6F518A628FD5C0200E70A9D /* GeofencingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofencingController.h; sourceTree = "<group>"; };
+		F6F518A728FD5C0200E70A9D /* LimitMapRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitMapRectViewController.m; sourceTree = "<group>"; };
+		F6F518A828FD5C0200E70A9D /* PickMapPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
+		F6F518A928FD5C0200E70A9D /* PointClusterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointClusterViewController.m; sourceTree = "<group>"; };
+		F6F518AA28FD5C0200E70A9D /* ShowMarkerCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkerCenterController.m; sourceTree = "<group>"; };
+		F6F518AB28FD5C0200E70A9D /* ShowMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkersViewController.m; sourceTree = "<group>"; };
+		F6F518AC28FD5C0200E70A9D /* SetMapCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMapCenterViewController.h; sourceTree = "<group>"; };
+		F6F518AD28FD5C0200E70A9D /* LimitMapRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitMapRectViewController.h; sourceTree = "<group>"; };
+		F6F518AE28FD5C0200E70A9D /* GeofencingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofencingController.m; sourceTree = "<group>"; };
+		F6F518AF28FD5C0200E70A9D /* PickMapPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
+		F6F518B028FD5C0200E70A9D /* CustomGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		F6F518B228FD5C0200E70A9D /* MutiInfoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotation.h; sourceTree = "<group>"; };
+		F6F518B328FD5C0200E70A9D /* CircleAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnnotationView.h; sourceTree = "<group>"; };
+		F6F518B428FD5C0200E70A9D /* MutiInfoAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotationView.m; sourceTree = "<group>"; };
+		F6F518B628FD5C0200E70A9D /* ImageInfoWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfoWindowView.h; sourceTree = "<group>"; };
+		F6F518B728FD5C0200E70A9D /* TitleInfoWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleInfoWindowView.h; sourceTree = "<group>"; };
+		F6F518B828FD5C0200E70A9D /* ImageInfoWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfoWindowView.m; sourceTree = "<group>"; };
+		F6F518B928FD5C0200E70A9D /* TitleInfoWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleInfoWindowView.m; sourceTree = "<group>"; };
+		F6F518BA28FD5C0200E70A9D /* CircleAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnnotationView.m; sourceTree = "<group>"; };
+		F6F518BB28FD5C0200E70A9D /* MutiInfoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotation.m; sourceTree = "<group>"; };
+		F6F518BC28FD5C0200E70A9D /* MutiInfoAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotationView.h; sourceTree = "<group>"; };
+		F6F518E428FD5C2200E70A9D /* cluster.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cluster.txt; sourceTree = "<group>"; };
+		F6F518E528FD5C2200E70A9D /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
+		F6F518E628FD5C2200E70A9D /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		F6F518E728FD5C2200E70A9D /* hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongbao.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7BB7541D2334C09600CC4E2F /* Frameworks */ = {
+		F6F5184828FD5B1D00E70A9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B82BB662339F99700B7901B /* QMapSDKUtils.framework in Frameworks */,
-				7BB7544D2334C38000CC4E2F /* libc++.tbd in Frameworks */,
-				7BB7544B2334C37B00CC4E2F /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7BB5A94B2338736300A14FDF /* Resources */ = {
+		F6F5184228FD5B1D00E70A9D = {
 			isa = PBXGroup;
 			children = (
-				E5B9482423D1AF6C004A4992 /* hongbao.png */,
-				7B82BB6C233A42CF00B7901B /* cluster.txt */,
-				7B82BB67233A14DF00B7901B /* car@3x.png */,
-				7BB5A95A2338B1D400A14FDF /* marker@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7BB754172334C09600CC4E2F = {
-			isa = PBXGroup;
-			children = (
-				7BB754222334C09600CC4E2F /* QMapScenarioDemo */,
-				7BB754212334C09600CC4E2F /* Products */,
-				7BB754472334C36F00CC4E2F /* Frameworks */,
+				F6F5184D28FD5B1D00E70A9D /* QMapScenarioDemo */,
+				F6F5184C28FD5B1D00E70A9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7BB754212334C09600CC4E2F /* Products */ = {
+		F6F5184C28FD5B1D00E70A9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */,
+				F6F5184B28FD5B1D00E70A9D /* QMapScenarioDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BB754222334C09600CC4E2F /* QMapScenarioDemo */ = {
+		F6F5184D28FD5B1D00E70A9D /* QMapScenarioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7BB5A94B2338736300A14FDF /* Resources */,
-				7BB754392334C28C00CC4E2F /* Dependence */,
-				7BB7543C2334C29900CC4E2F /* Demos */,
-				7BB754232334C09600CC4E2F /* AppDelegate.h */,
-				7BB754242334C09600CC4E2F /* AppDelegate.m */,
-				E50D498924690017009EACC4 /* Assets.xcassets */,
-				7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */,
-				7BB754312334C09700CC4E2F /* Info.plist */,
-				7BB754322334C09700CC4E2F /* main.m */,
+				F6F518E328FD5C2200E70A9D /* Resources */,
+				F6F518E228FD5C0D00E70A9D /* Dependence */,
+				F6F5186728FD5C0100E70A9D /* Demos */,
+				F6F5184E28FD5B1D00E70A9D /* AppDelegate.h */,
+				F6F5184F28FD5B1D00E70A9D /* AppDelegate.m */,
+				F6F5185728FD5B1D00E70A9D /* Main.storyboard */,
+				F6F5185A28FD5B1E00E70A9D /* Assets.xcassets */,
+				F6F5185C28FD5B1E00E70A9D /* LaunchScreen.storyboard */,
+				F6F5185F28FD5B1E00E70A9D /* Info.plist */,
+				F6F5186028FD5B1E00E70A9D /* main.m */,
 			);
 			path = QMapScenarioDemo;
 			sourceTree = "<group>";
 		};
-		7BB754392334C28C00CC4E2F /* Dependence */ = {
+		F6F5186728FD5C0100E70A9D /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				7B82BB652339F99700B7901B /* QMapSDKUtils.framework */,
-			);
-			path = Dependence;
-			sourceTree = "<group>";
-		};
-		7BB7543C2334C29900CC4E2F /* Demos */ = {
-			isa = PBXGroup;
-			children = (
-				7BB7543D2334C29900CC4E2F /* EntryData.h */,
-				7BB754402334C29900CC4E2F /* EntryData.m */,
-				7BB7543E2334C29900CC4E2F /* EntryViewController.h */,
-				7BB7543F2334C29900CC4E2F /* EntryViewController.m */,
-				E50D49A3246BA3A2009EACC4 /* Views */,
-				7BB754412334C29900CC4E2F /* Controllers */,
+				F6F5186828FD5C0100E70A9D /* EntryData.h */,
+				F6F5186928FD5C0100E70A9D /* EntryViewController.h */,
+				F6F5186A28FD5C0100E70A9D /* EntryViewController.m */,
+				F6F5186B28FD5C0100E70A9D /* EntryData.m */,
+				F6F5186C28FD5C0100E70A9D /* Controllers */,
+				F6F518B128FD5C0200E70A9D /* Views */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
 		};
-		7BB754412334C29900CC4E2F /* Controllers */ = {
+		F6F5186C28FD5C0100E70A9D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E50D49B2246E439E009EACC4 /* Base */,
-				E50D49BF246E439E009EACC4 /* Gesture */,
-				E50D49C2246E439E009EACC4 /* Locaiton */,
-				E50D49A8246E439E009EACC4 /* Overlay */,
-				E50D49AF246E439E009EACC4 /* Trail */,
-				E532FBDF248F31A4000820CF /* Delivery */,
-				7BB754432334C29900CC4E2F /* BaseMapViewController.h */,
-				7BB754422334C29900CC4E2F /* BaseMapViewController.m */,
+				F6F5186D28FD5C0100E70A9D /* ShowsPoiViewController.m */,
+				F6F5186E28FD5C0100E70A9D /* ShowMarkersViewController.h */,
+				F6F5186F28FD5C0100E70A9D /* PointClusterViewController.h */,
+				F6F5187028FD5C0100E70A9D /* SetMapCenterViewController.m */,
+				F6F5187128FD5C0100E70A9D /* SmoothMoveViewController.h */,
+				F6F5187228FD5C0100E70A9D /* Trail */,
+				F6F5187528FD5C0100E70A9D /* BaseMapViewController.m */,
+				F6F5187628FD5C0100E70A9D /* LimitMapRectViewController.m */,
+				F6F5187728FD5C0100E70A9D /* CustomGestureViewController.m */,
+				F6F5187828FD5C0100E70A9D /* PickMapPointViewController.m */,
+				F6F5187928FD5C0100E70A9D /* PointClusterViewController.m */,
+				F6F5187A28FD5C0100E70A9D /* Locaiton */,
+				F6F5187F28FD5C0100E70A9D /* ShowsPoiViewController.h */,
+				F6F5188028FD5C0100E70A9D /* ShowMarkersViewController.m */,
+				F6F5188128FD5C0100E70A9D /* Gesture */,
+				F6F5188428FD5C0100E70A9D /* BaseMapViewController.h */,
+				F6F5188528FD5C0100E70A9D /* SmoothMoveViewController.m */,
+				F6F5188628FD5C0100E70A9D /* Delivery */,
+				F6F5189328FD5C0100E70A9D /* SetMapCenterViewController.h */,
+				F6F5189428FD5C0100E70A9D /* LimitMapRectViewController.h */,
+				F6F5189528FD5C0100E70A9D /* Overlay */,
+				F6F518A028FD5C0100E70A9D /* PickMapPointViewController.h */,
+				F6F518A128FD5C0100E70A9D /* Base */,
+				F6F518B028FD5C0200E70A9D /* CustomGestureViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		7BB754472334C36F00CC4E2F /* Frameworks */ = {
+		F6F5187228FD5C0100E70A9D /* Trail */ = {
 			isa = PBXGroup;
 			children = (
-				7BB7544C2334C38000CC4E2F /* libc++.tbd */,
-				7BB7544A2334C37B00CC4E2F /* libsqlite3.0.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E50D49A3246BA3A2009EACC4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E50D49A4246BA3BA009EACC4 /* CircleAnnotationView.h */,
-				E50D49A5246BA3BA009EACC4 /* CircleAnnotationView.m */,
-				E5AE0F7624768326005BD9ED /* MutiInfoAnnotation.h */,
-				E5AE0F7724768326005BD9ED /* MutiInfoAnnotation.m */,
-				E5AE0F6F247667C0005BD9ED /* MutiInfoAnnotationView.h */,
-				E5AE0F70247667C0005BD9ED /* MutiInfoAnnotationView.m */,
-				E5AE0F802477A775005BD9ED /* InfoWindow */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E50D49A8246E439E009EACC4 /* Overlay */ = {
-			isa = PBXGroup;
-			children = (
-				E50D49AC246E439E009EACC4 /* ShowsPoiViewController.h */,
-				E50D49A9246E439E009EACC4 /* ShowsPoiViewController.m */,
-				E50D49AE246E439E009EACC4 /* MarkerAnimationController.h */,
-				E50D49AA246E439E009EACC4 /* MarkerAnimationController.m */,
-				E50D49AB246E439E009EACC4 /* HideBuildingController.h */,
-				E50D49AD246E439E009EACC4 /* HideBuildingController.m */,
-				E5AE0F7224766B4E005BD9ED /* MutiInfoWindowController.h */,
-				E5AE0F7324766B4E005BD9ED /* MutiInfoWindowController.m */,
-				E5970AD0247CBEB000A970CD /* AnnotationRotateController.h */,
-				E5970AD1247CBEB000A970CD /* AnnotationRotateController.m */,
-			);
-			path = Overlay;
-			sourceTree = "<group>";
-		};
-		E50D49AF246E439E009EACC4 /* Trail */ = {
-			isa = PBXGroup;
-			children = (
-				E50D49B0246E439E009EACC4 /* SmoothMoveViewController.h */,
-				E50D49B1246E439E009EACC4 /* SmoothMoveViewController.m */,
+				F6F5187328FD5C0100E70A9D /* SmoothMoveViewController.h */,
+				F6F5187428FD5C0100E70A9D /* SmoothMoveViewController.m */,
 			);
 			path = Trail;
 			sourceTree = "<group>";
 		};
-		E50D49B2246E439E009EACC4 /* Base */ = {
+		F6F5187A28FD5C0100E70A9D /* Locaiton */ = {
 			isa = PBXGroup;
 			children = (
-				E50D49B3246E439E009EACC4 /* ShowMarkersViewController.h */,
-				E50D49BA246E439E009EACC4 /* ShowMarkersViewController.m */,
-				E50D49BB246E439E009EACC4 /* SetMapCenterViewController.h */,
-				E50D49B5246E439E009EACC4 /* SetMapCenterViewController.m */,
-				E50D49B6246E439E009EACC4 /* GeofencingController.h */,
-				E50D49BE246E439E009EACC4 /* PickMapPointViewController.h */,
-				E50D49B8246E439E009EACC4 /* PickMapPointViewController.m */,
-				E50D49B4246E439E009EACC4 /* PointClusterViewController.h */,
-				E50D49B9246E439E009EACC4 /* PointClusterViewController.m */,
-				E50D49BC246E439E009EACC4 /* LimitMapRectViewController.h */,
-				E50D49B7246E439E009EACC4 /* LimitMapRectViewController.m */,
-				E50D49BD246E439E009EACC4 /* GeofencingController.m */,
-				E50D49D4246E43FC009EACC4 /* ShowMarkerCenterController.h */,
-				E50D49D5246E43FC009EACC4 /* ShowMarkerCenterController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		E50D49BF246E439E009EACC4 /* Gesture */ = {
-			isa = PBXGroup;
-			children = (
-				E50D49C1246E439E009EACC4 /* CustomGestureViewController.h */,
-				E50D49C0246E439E009EACC4 /* CustomGestureViewController.m */,
-			);
-			path = Gesture;
-			sourceTree = "<group>";
-		};
-		E50D49C2246E439E009EACC4 /* Locaiton */ = {
-			isa = PBXGroup;
-			children = (
-				E50D49C3246E439E009EACC4 /* LocationIconController.h */,
-				E50D49C6246E439E009EACC4 /* LocationIconController.m */,
-				E50D49C4246E439E009EACC4 /* LocationCircleController.h */,
-				E50D49C5246E439E009EACC4 /* LocationCircleController.m */,
+				F6F5187B28FD5C0100E70A9D /* LocationIconController.h */,
+				F6F5187C28FD5C0100E70A9D /* LocationCircleController.h */,
+				F6F5187D28FD5C0100E70A9D /* LocationCircleController.m */,
+				F6F5187E28FD5C0100E70A9D /* LocationIconController.m */,
 			);
 			path = Locaiton;
 			sourceTree = "<group>";
 		};
-		E50E3E3F24A09CF000202937 /* View */ = {
+		F6F5188128FD5C0100E70A9D /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
-				E50E3E4024A09D3600202937 /* DeliveryRouteView.h */,
-				E50E3E4124A09D3600202937 /* DeliveryRouteView.m */,
-				E50E3E4724A0A2BD00202937 /* DeliveryGoodsView.h */,
-				E50E3E4824A0A2BD00202937 /* DeliveryGoodsView.m */,
+				F6F5188228FD5C0100E70A9D /* CustomGestureViewController.m */,
+				F6F5188328FD5C0100E70A9D /* CustomGestureViewController.h */,
 			);
-			path = View;
+			path = Gesture;
 			sourceTree = "<group>";
 		};
-		E50E3E4324A09DF500202937 /* Model */ = {
+		F6F5188628FD5C0100E70A9D /* Delivery */ = {
 			isa = PBXGroup;
 			children = (
-				E50E3E4424A09E0500202937 /* DeliveryModel.h */,
-				E50E3E4524A09E0500202937 /* DeliveryModel.m */,
-				E50E3E4A24A0A2CA00202937 /* DeliveryGoodsModel.h */,
-				E50E3E4B24A0A2CA00202937 /* DeliveryGoodsModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E532FBDF248F31A4000820CF /* Delivery */ = {
-			isa = PBXGroup;
-			children = (
-				E50E3E4324A09DF500202937 /* Model */,
-				E50E3E3F24A09CF000202937 /* View */,
-				E532FBE0248F31D3000820CF /* DeliveryController.h */,
-				E532FBE1248F31D3000820CF /* DeliveryController.m */,
+				F6F5188728FD5C0100E70A9D /* DeliveryController.m */,
+				F6F5188828FD5C0100E70A9D /* Model */,
+				F6F5188D28FD5C0100E70A9D /* View */,
+				F6F5189228FD5C0100E70A9D /* DeliveryController.h */,
 			);
 			path = Delivery;
 			sourceTree = "<group>";
 		};
-		E5AE0F802477A775005BD9ED /* InfoWindow */ = {
+		F6F5188828FD5C0100E70A9D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E5AE0F7A2477A74D005BD9ED /* TitleInfoWindowView.h */,
-				E5AE0F7B2477A74D005BD9ED /* TitleInfoWindowView.m */,
-				E5AE0F7D2477A758005BD9ED /* ImageInfoWindowView.h */,
-				E5AE0F7E2477A758005BD9ED /* ImageInfoWindowView.m */,
+				F6F5188928FD5C0100E70A9D /* DeliveryGoodsModel.m */,
+				F6F5188A28FD5C0100E70A9D /* DeliveryModel.h */,
+				F6F5188B28FD5C0100E70A9D /* DeliveryGoodsModel.h */,
+				F6F5188C28FD5C0100E70A9D /* DeliveryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6F5188D28FD5C0100E70A9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6F5188E28FD5C0100E70A9D /* DeliveryGoodsView.h */,
+				F6F5188F28FD5C0100E70A9D /* DeliveryRouteView.h */,
+				F6F5189028FD5C0100E70A9D /* DeliveryGoodsView.m */,
+				F6F5189128FD5C0100E70A9D /* DeliveryRouteView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6F5189528FD5C0100E70A9D /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				F6F5189628FD5C0100E70A9D /* ShowsPoiViewController.m */,
+				F6F5189728FD5C0100E70A9D /* MutiInfoWindowController.h */,
+				F6F5189828FD5C0100E70A9D /* MarkerAnimationController.m */,
+				F6F5189928FD5C0100E70A9D /* HideBuildingController.h */,
+				F6F5189A28FD5C0100E70A9D /* AnnotationRotateController.h */,
+				F6F5189B28FD5C0100E70A9D /* ShowsPoiViewController.h */,
+				F6F5189C28FD5C0100E70A9D /* HideBuildingController.m */,
+				F6F5189D28FD5C0100E70A9D /* MarkerAnimationController.h */,
+				F6F5189E28FD5C0100E70A9D /* MutiInfoWindowController.m */,
+				F6F5189F28FD5C0100E70A9D /* AnnotationRotateController.m */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		F6F518A128FD5C0100E70A9D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F6F518A228FD5C0100E70A9D /* ShowMarkersViewController.h */,
+				F6F518A328FD5C0100E70A9D /* ShowMarkerCenterController.h */,
+				F6F518A428FD5C0200E70A9D /* PointClusterViewController.h */,
+				F6F518A528FD5C0200E70A9D /* SetMapCenterViewController.m */,
+				F6F518A628FD5C0200E70A9D /* GeofencingController.h */,
+				F6F518A728FD5C0200E70A9D /* LimitMapRectViewController.m */,
+				F6F518A828FD5C0200E70A9D /* PickMapPointViewController.m */,
+				F6F518A928FD5C0200E70A9D /* PointClusterViewController.m */,
+				F6F518AA28FD5C0200E70A9D /* ShowMarkerCenterController.m */,
+				F6F518AB28FD5C0200E70A9D /* ShowMarkersViewController.m */,
+				F6F518AC28FD5C0200E70A9D /* SetMapCenterViewController.h */,
+				F6F518AD28FD5C0200E70A9D /* LimitMapRectViewController.h */,
+				F6F518AE28FD5C0200E70A9D /* GeofencingController.m */,
+				F6F518AF28FD5C0200E70A9D /* PickMapPointViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F6F518B128FD5C0200E70A9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6F518B228FD5C0200E70A9D /* MutiInfoAnnotation.h */,
+				F6F518B328FD5C0200E70A9D /* CircleAnnotationView.h */,
+				F6F518B428FD5C0200E70A9D /* MutiInfoAnnotationView.m */,
+				F6F518B528FD5C0200E70A9D /* InfoWindow */,
+				F6F518BA28FD5C0200E70A9D /* CircleAnnotationView.m */,
+				F6F518BB28FD5C0200E70A9D /* MutiInfoAnnotation.m */,
+				F6F518BC28FD5C0200E70A9D /* MutiInfoAnnotationView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6F518B528FD5C0200E70A9D /* InfoWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F6F518B628FD5C0200E70A9D /* ImageInfoWindowView.h */,
+				F6F518B728FD5C0200E70A9D /* TitleInfoWindowView.h */,
+				F6F518B828FD5C0200E70A9D /* ImageInfoWindowView.m */,
+				F6F518B928FD5C0200E70A9D /* TitleInfoWindowView.m */,
 			);
 			path = InfoWindow;
+			sourceTree = "<group>";
+		};
+		F6F518E228FD5C0D00E70A9D /* Dependence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependence;
+			sourceTree = "<group>";
+		};
+		F6F518E328FD5C2200E70A9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6F518E428FD5C2200E70A9D /* cluster.txt */,
+				F6F518E528FD5C2200E70A9D /* car@3x.png */,
+				F6F518E628FD5C2200E70A9D /* marker@2x.png */,
+				F6F518E728FD5C2200E70A9D /* hongbao.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7BB7541F2334C09600CC4E2F /* QMapScenarioDemo */ = {
+		F6F5184A28FD5B1D00E70A9D /* QMapScenarioDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BB754362334C09700CC4E2F /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */;
+			buildConfigurationList = F6F5186428FD5B1E00E70A9D /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */;
 			buildPhases = (
-				7BB7541C2334C09600CC4E2F /* Sources */,
-				7BB7541D2334C09600CC4E2F /* Frameworks */,
-				7BB7541E2334C09600CC4E2F /* Resources */,
+				F6F5184728FD5B1D00E70A9D /* Sources */,
+				F6F5184828FD5B1D00E70A9D /* Frameworks */,
+				F6F5184928FD5B1D00E70A9D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -369,103 +392,120 @@
 			);
 			name = QMapScenarioDemo;
 			productName = QMapScenarioDemo;
-			productReference = 7BB754202334C09600CC4E2F /* QMapScenarioDemo.app */;
+			productReference = F6F5184B28FD5B1D00E70A9D /* QMapScenarioDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7BB754182334C09600CC4E2F /* Project object */ = {
+		F6F5184328FD5B1D00E70A9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1320;
-				ORGANIZATIONNAME = Tencent;
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					7BB7541F2334C09600CC4E2F = {
-						CreatedOnToolsVersion = 10.3;
+					F6F5184A28FD5B1D00E70A9D = {
+						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = 7BB7541B2334C09600CC4E2F /* Build configuration list for PBXProject "QMapScenarioDemo" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = F6F5184628FD5B1D00E70A9D /* Build configuration list for PBXProject "QMapScenarioDemo" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7BB754172334C09600CC4E2F;
-			productRefGroup = 7BB754212334C09600CC4E2F /* Products */;
+			mainGroup = F6F5184228FD5B1D00E70A9D;
+			productRefGroup = F6F5184C28FD5B1D00E70A9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7BB7541F2334C09600CC4E2F /* QMapScenarioDemo */,
+				F6F5184A28FD5B1D00E70A9D /* QMapScenarioDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7BB7541E2334C09600CC4E2F /* Resources */ = {
+		F6F5184928FD5B1D00E70A9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB5A95B2338B1D400A14FDF /* marker@2x.png in Resources */,
-				E5B9482523D1AF6C004A4992 /* hongbao.png in Resources */,
-				7BB754302334C09700CC4E2F /* LaunchScreen.storyboard in Resources */,
-				E50D498A24690017009EACC4 /* Assets.xcassets in Resources */,
-				7B82BB6D233A42CF00B7901B /* cluster.txt in Resources */,
-				7B82BB68233A14DF00B7901B /* car@3x.png in Resources */,
+				F6F5185E28FD5B1E00E70A9D /* LaunchScreen.storyboard in Resources */,
+				F6F518EB28FD5C2200E70A9D /* hongbao.png in Resources */,
+				F6F5185B28FD5B1E00E70A9D /* Assets.xcassets in Resources */,
+				F6F5185928FD5B1D00E70A9D /* Main.storyboard in Resources */,
+				F6F518E928FD5C2200E70A9D /* car@3x.png in Resources */,
+				F6F518EA28FD5C2200E70A9D /* marker@2x.png in Resources */,
+				F6F518E828FD5C2200E70A9D /* cluster.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7BB7541C2334C09600CC4E2F /* Sources */ = {
+		F6F5184728FD5B1D00E70A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E532FBE2248F31D3000820CF /* DeliveryController.m in Sources */,
-				E50E3E4224A09D3600202937 /* DeliveryRouteView.m in Sources */,
-				E5AE0F7424766B4E005BD9ED /* MutiInfoWindowController.m in Sources */,
-				E5AE0F7F2477A758005BD9ED /* ImageInfoWindowView.m in Sources */,
-				7BB754332334C09700CC4E2F /* main.m in Sources */,
-				E50D49A6246BA3BA009EACC4 /* CircleAnnotationView.m in Sources */,
-				E5AE0F7824768326005BD9ED /* MutiInfoAnnotation.m in Sources */,
-				E50D49CD246E439E009EACC4 /* PickMapPointViewController.m in Sources */,
-				7BB754462334C29900CC4E2F /* BaseMapViewController.m in Sources */,
-				E50E3E4624A09E0500202937 /* DeliveryModel.m in Sources */,
-				E5AE0F71247667C0005BD9ED /* MutiInfoAnnotationView.m in Sources */,
-				E50D49CB246E439E009EACC4 /* SetMapCenterViewController.m in Sources */,
-				E5970AD2247CBEB000A970CD /* AnnotationRotateController.m in Sources */,
-				E50D49CA246E439E009EACC4 /* SmoothMoveViewController.m in Sources */,
-				E5AE0F7C2477A74D005BD9ED /* TitleInfoWindowView.m in Sources */,
-				E50D49C7246E439E009EACC4 /* ShowsPoiViewController.m in Sources */,
-				E50D49C8246E439E009EACC4 /* MarkerAnimationController.m in Sources */,
-				7BB754442334C29900CC4E2F /* EntryViewController.m in Sources */,
-				E50D49CF246E439E009EACC4 /* ShowMarkersViewController.m in Sources */,
-				E50D49D3246E439E009EACC4 /* LocationIconController.m in Sources */,
-				E50E3E4924A0A2BD00202937 /* DeliveryGoodsView.m in Sources */,
-				E50D49D0246E439E009EACC4 /* GeofencingController.m in Sources */,
-				E50D49C9246E439E009EACC4 /* HideBuildingController.m in Sources */,
-				E50D49CE246E439E009EACC4 /* PointClusterViewController.m in Sources */,
-				E50D49D1246E439E009EACC4 /* CustomGestureViewController.m in Sources */,
-				E50D49D2246E439E009EACC4 /* LocationCircleController.m in Sources */,
-				E50D49CC246E439E009EACC4 /* LimitMapRectViewController.m in Sources */,
-				7BB754452334C29900CC4E2F /* EntryData.m in Sources */,
-				7BB754252334C09600CC4E2F /* AppDelegate.m in Sources */,
-				E50D49D6246E43FC009EACC4 /* ShowMarkerCenterController.m in Sources */,
-				E50E3E4C24A0A2CA00202937 /* DeliveryGoodsModel.m in Sources */,
+				F6F518D828FD5C0200E70A9D /* PickMapPointViewController.m in Sources */,
+				F6F518C728FD5C0200E70A9D /* LocationCircleController.m in Sources */,
+				F6F518DC28FD5C0200E70A9D /* GeofencingController.m in Sources */,
+				F6F518D928FD5C0200E70A9D /* PointClusterViewController.m in Sources */,
+				F6F518E128FD5C0200E70A9D /* MutiInfoAnnotation.m in Sources */,
+				F6F518BD28FD5C0200E70A9D /* EntryViewController.m in Sources */,
+				F6F518C828FD5C0200E70A9D /* LocationIconController.m in Sources */,
+				F6F518D428FD5C0200E70A9D /* MutiInfoWindowController.m in Sources */,
+				F6F518C628FD5C0200E70A9D /* PointClusterViewController.m in Sources */,
+				F6F518D328FD5C0200E70A9D /* HideBuildingController.m in Sources */,
+				F6F518CB28FD5C0200E70A9D /* SmoothMoveViewController.m in Sources */,
+				F6F518C028FD5C0200E70A9D /* SetMapCenterViewController.m in Sources */,
+				F6F518BF28FD5C0200E70A9D /* ShowsPoiViewController.m in Sources */,
+				F6F518DF28FD5C0200E70A9D /* TitleInfoWindowView.m in Sources */,
+				F6F518C428FD5C0200E70A9D /* CustomGestureViewController.m in Sources */,
+				F6F518C528FD5C0200E70A9D /* PickMapPointViewController.m in Sources */,
+				F6F518DE28FD5C0200E70A9D /* ImageInfoWindowView.m in Sources */,
+				F6F5185028FD5B1D00E70A9D /* AppDelegate.m in Sources */,
+				F6F518C328FD5C0200E70A9D /* LimitMapRectViewController.m in Sources */,
+				F6F518CC28FD5C0200E70A9D /* DeliveryController.m in Sources */,
+				F6F518D728FD5C0200E70A9D /* LimitMapRectViewController.m in Sources */,
+				F6F518C928FD5C0200E70A9D /* ShowMarkersViewController.m in Sources */,
+				F6F518D128FD5C0200E70A9D /* ShowsPoiViewController.m in Sources */,
+				F6F518C128FD5C0200E70A9D /* SmoothMoveViewController.m in Sources */,
+				F6F518D628FD5C0200E70A9D /* SetMapCenterViewController.m in Sources */,
+				F6F518CE28FD5C0200E70A9D /* DeliveryModel.m in Sources */,
+				F6F518CA28FD5C0200E70A9D /* CustomGestureViewController.m in Sources */,
+				F6F518E028FD5C0200E70A9D /* CircleAnnotationView.m in Sources */,
+				F6F518CD28FD5C0200E70A9D /* DeliveryGoodsModel.m in Sources */,
+				F6F518DA28FD5C0200E70A9D /* ShowMarkerCenterController.m in Sources */,
+				F6F5186128FD5B1E00E70A9D /* main.m in Sources */,
+				F6F518DD28FD5C0200E70A9D /* MutiInfoAnnotationView.m in Sources */,
+				F6F518CF28FD5C0200E70A9D /* DeliveryGoodsView.m in Sources */,
+				F6F518C228FD5C0200E70A9D /* BaseMapViewController.m in Sources */,
+				F6F518DB28FD5C0200E70A9D /* ShowMarkersViewController.m in Sources */,
+				F6F518D228FD5C0200E70A9D /* MarkerAnimationController.m in Sources */,
+				F6F518D528FD5C0200E70A9D /* AnnotationRotateController.m in Sources */,
+				F6F518BE28FD5C0200E70A9D /* EntryData.m in Sources */,
+				F6F518D028FD5C0200E70A9D /* DeliveryRouteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7BB7542E2334C09700CC4E2F /* LaunchScreen.storyboard */ = {
+		F6F5185728FD5B1D00E70A9D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7BB7542F2334C09700CC4E2F /* Base */,
+				F6F5185828FD5B1D00E70A9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6F5185C28FD5B1E00E70A9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F5185D28FD5B1E00E70A9D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -473,14 +513,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7BB754342334C09700CC4E2F /* Debug */ = {
+		F6F5186228FD5B1E00E70A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -506,7 +545,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -525,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -533,14 +571,13 @@
 			};
 			name = Debug;
 		};
-		7BB754352334C09700CC4E2F /* Release */ = {
+		F6F5186328FD5B1E00E70A9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -566,7 +603,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -579,7 +615,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -587,60 +623,60 @@
 			};
 			name = Release;
 		};
-		7BB754372334C09700CC4E2F /* Debug */ = {
+		F6F5186528FD5B1E00E70A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3QPMFXR3EA;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QMapScenarioDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence/TencentTrackSDK.framework",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fh.www;
-				PRODUCT_NAME = QMapScenarioDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LBS.tencent.QMapScenarioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7BB754382334C09700CC4E2F /* Release */ = {
+		F6F5186628FD5B1E00E70A9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3QPMFXR3EA;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/QMapScenarioDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QMapScenarioDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence",
-					"$(PROJECT_DIR)/QMapScenarioDemo/Dependence/TencentTrackSDK.framework",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fh.www;
-				PRODUCT_NAME = QMapScenarioDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LBS.tencent.QMapScenarioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -648,25 +684,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7BB7541B2334C09600CC4E2F /* Build configuration list for PBXProject "QMapScenarioDemo" */ = {
+		F6F5184628FD5B1D00E70A9D /* Build configuration list for PBXProject "QMapScenarioDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BB754342334C09700CC4E2F /* Debug */,
-				7BB754352334C09700CC4E2F /* Release */,
+				F6F5186228FD5B1E00E70A9D /* Debug */,
+				F6F5186328FD5B1E00E70A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BB754362334C09700CC4E2F /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */ = {
+		F6F5186428FD5B1E00E70A9D /* Build configuration list for PBXNativeTarget "QMapScenarioDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BB754372334C09700CC4E2F /* Debug */,
-				7BB754382334C09700CC4E2F /* Release */,
+				F6F5186528FD5B1E00E70A9D /* Debug */,
+				F6F5186628FD5B1E00E70A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7BB754182334C09600CC4E2F /* Project object */;
+	rootObject = F6F5184328FD5B1D00E70A9D /* Project object */;
 }
