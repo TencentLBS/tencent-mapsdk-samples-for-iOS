@@ -39,6 +39,10 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    
+    // 隐私协议开关，since 4.5.6
+    [[QMapServices sharedServices] setPrivacyAgreement:YES];
+    
     return YES;
 }
 
