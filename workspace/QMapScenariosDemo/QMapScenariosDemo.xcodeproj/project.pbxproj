@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6FA6EBB28FD72C500D06AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6EBA28FD72C500D06AB0 /* AppDelegate.m */; };
+		F6FA6EC128FD72C500D06AB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6EC028FD72C500D06AB0 /* ViewController.m */; };
+		F6FA6EC428FD72C500D06AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6EC228FD72C500D06AB0 /* Main.storyboard */; };
+		F6FA6EC628FD72C600D06AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6EC528FD72C600D06AB0 /* Assets.xcassets */; };
+		F6FA6EC928FD72C600D06AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6EC728FD72C600D06AB0 /* LaunchScreen.storyboard */; };
+		F6FA6ECC28FD72C600D06AB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6ECB28FD72C600D06AB0 /* main.m */; };
+		F6FA6FFE28FD765000D06AB0 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FA628FD765000D06AB0 /* EntryViewController.m */; };
+		F6FA6FFF28FD765000D06AB0 /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FA728FD765000D06AB0 /* EntryData.m */; };
+		F6FA700228FD765000D06AB0 /* SmoothMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FB028FD765000D06AB0 /* SmoothMoveViewController.m */; };
+		F6FA700328FD765000D06AB0 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FB128FD765000D06AB0 /* BaseMapViewController.m */; };
+		F6FA700828FD765000D06AB0 /* LocationCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FB928FD765000D06AB0 /* LocationCircleController.m */; };
+		F6FA700928FD765000D06AB0 /* LocationIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FBA28FD765000D06AB0 /* LocationIconController.m */; };
+		F6FA700B28FD765000D06AB0 /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FBE28FD765000D06AB0 /* CustomGestureViewController.m */; };
+		F6FA700D28FD765000D06AB0 /* DeliveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FC328FD765000D06AB0 /* DeliveryController.m */; };
+		F6FA700E28FD765000D06AB0 /* DeliveryGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FC528FD765000D06AB0 /* DeliveryGoodsModel.m */; };
+		F6FA700F28FD765000D06AB0 /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FC828FD765000D06AB0 /* DeliveryModel.m */; };
+		F6FA701028FD765000D06AB0 /* DeliveryGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FCC28FD765000D06AB0 /* DeliveryGoodsView.m */; };
+		F6FA701128FD765000D06AB0 /* DeliveryRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FCD28FD765000D06AB0 /* DeliveryRouteView.m */; };
+		F6FA701228FD765000D06AB0 /* ShowsPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FD228FD765000D06AB0 /* ShowsPoiViewController.m */; };
+		F6FA701328FD765000D06AB0 /* MarkerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FD428FD765000D06AB0 /* MarkerAnimationController.m */; };
+		F6FA701428FD765000D06AB0 /* HideBuildingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FD828FD765000D06AB0 /* HideBuildingController.m */; };
+		F6FA701528FD765000D06AB0 /* MutiInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FDA28FD765000D06AB0 /* MutiInfoWindowController.m */; };
+		F6FA701628FD765000D06AB0 /* AnnotationRotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FDB28FD765000D06AB0 /* AnnotationRotateController.m */; };
+		F6FA701728FD765000D06AB0 /* SetMapCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE128FD765000D06AB0 /* SetMapCenterViewController.m */; };
+		F6FA701828FD765000D06AB0 /* LimitMapRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE328FD765000D06AB0 /* LimitMapRectViewController.m */; };
+		F6FA701928FD765000D06AB0 /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE428FD765000D06AB0 /* PickMapPointViewController.m */; };
+		F6FA701A28FD765000D06AB0 /* PointClusterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE528FD765000D06AB0 /* PointClusterViewController.m */; };
+		F6FA701B28FD765000D06AB0 /* ShowMarkerCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE628FD765000D06AB0 /* ShowMarkerCenterController.m */; };
+		F6FA701C28FD765000D06AB0 /* ShowMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FE728FD765000D06AB0 /* ShowMarkersViewController.m */; };
+		F6FA701D28FD765000D06AB0 /* GeofencingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FEA28FD765000D06AB0 /* GeofencingController.m */; };
+		F6FA701E28FD765000D06AB0 /* MutiInfoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FF028FD765000D06AB0 /* MutiInfoAnnotationView.m */; };
+		F6FA701F28FD765000D06AB0 /* ImageInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FF428FD765000D06AB0 /* ImageInfoWindowView.m */; };
+		F6FA702028FD765000D06AB0 /* TitleInfoWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FF528FD765000D06AB0 /* TitleInfoWindowView.m */; };
+		F6FA702128FD765000D06AB0 /* CircleAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FF628FD765000D06AB0 /* CircleAnnotationView.m */; };
+		F6FA702228FD765000D06AB0 /* MutiInfoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6FF728FD765000D06AB0 /* MutiInfoAnnotation.m */; };
+		F6FA702328FD765000D06AB0 /* cluster.txt in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6FFA28FD765000D06AB0 /* cluster.txt */; };
+		F6FA702428FD765000D06AB0 /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6FFB28FD765000D06AB0 /* car@3x.png */; };
+		F6FA702528FD765000D06AB0 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6FFC28FD765000D06AB0 /* marker@2x.png */; };
+		F6FA702628FD765000D06AB0 /* hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6FFD28FD765000D06AB0 /* hongbao.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6FA6EB628FD72C500D06AB0 /* QMapScenariosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapScenariosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FA6EB928FD72C500D06AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6FA6EBA28FD72C500D06AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6FA6EBF28FD72C500D06AB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6FA6EC028FD72C500D06AB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6FA6EC328FD72C500D06AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6FA6EC528FD72C600D06AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6FA6EC828FD72C600D06AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6FA6ECA28FD72C600D06AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FA6ECB28FD72C600D06AB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6FA6FA428FD765000D06AB0 /* EntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
+		F6FA6FA528FD765000D06AB0 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		F6FA6FA628FD765000D06AB0 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		F6FA6FA728FD765000D06AB0 /* EntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
+		F6FA6FAF28FD765000D06AB0 /* SmoothMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMoveViewController.h; sourceTree = "<group>"; };
+		F6FA6FB028FD765000D06AB0 /* SmoothMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMoveViewController.m; sourceTree = "<group>"; };
+		F6FA6FB128FD765000D06AB0 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		F6FA6FB728FD765000D06AB0 /* LocationIconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIconController.h; sourceTree = "<group>"; };
+		F6FA6FB828FD765000D06AB0 /* LocationCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCircleController.h; sourceTree = "<group>"; };
+		F6FA6FB928FD765000D06AB0 /* LocationCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCircleController.m; sourceTree = "<group>"; };
+		F6FA6FBA28FD765000D06AB0 /* LocationIconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIconController.m; sourceTree = "<group>"; };
+		F6FA6FBE28FD765000D06AB0 /* CustomGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		F6FA6FBF28FD765000D06AB0 /* CustomGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		F6FA6FC028FD765000D06AB0 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		F6FA6FC328FD765000D06AB0 /* DeliveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryController.m; sourceTree = "<group>"; };
+		F6FA6FC528FD765000D06AB0 /* DeliveryGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsModel.m; sourceTree = "<group>"; };
+		F6FA6FC628FD765000D06AB0 /* DeliveryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryModel.h; sourceTree = "<group>"; };
+		F6FA6FC728FD765000D06AB0 /* DeliveryGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsModel.h; sourceTree = "<group>"; };
+		F6FA6FC828FD765000D06AB0 /* DeliveryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryModel.m; sourceTree = "<group>"; };
+		F6FA6FCA28FD765000D06AB0 /* DeliveryGoodsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryGoodsView.h; sourceTree = "<group>"; };
+		F6FA6FCB28FD765000D06AB0 /* DeliveryRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryRouteView.h; sourceTree = "<group>"; };
+		F6FA6FCC28FD765000D06AB0 /* DeliveryGoodsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryGoodsView.m; sourceTree = "<group>"; };
+		F6FA6FCD28FD765000D06AB0 /* DeliveryRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryRouteView.m; sourceTree = "<group>"; };
+		F6FA6FCE28FD765000D06AB0 /* DeliveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryController.h; sourceTree = "<group>"; };
+		F6FA6FD228FD765000D06AB0 /* ShowsPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsPoiViewController.m; sourceTree = "<group>"; };
+		F6FA6FD328FD765000D06AB0 /* MutiInfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoWindowController.h; sourceTree = "<group>"; };
+		F6FA6FD428FD765000D06AB0 /* MarkerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnimationController.m; sourceTree = "<group>"; };
+		F6FA6FD528FD765000D06AB0 /* HideBuildingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideBuildingController.h; sourceTree = "<group>"; };
+		F6FA6FD628FD765000D06AB0 /* AnnotationRotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationRotateController.h; sourceTree = "<group>"; };
+		F6FA6FD728FD765000D06AB0 /* ShowsPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsPoiViewController.h; sourceTree = "<group>"; };
+		F6FA6FD828FD765000D06AB0 /* HideBuildingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideBuildingController.m; sourceTree = "<group>"; };
+		F6FA6FD928FD765000D06AB0 /* MarkerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnimationController.h; sourceTree = "<group>"; };
+		F6FA6FDA28FD765000D06AB0 /* MutiInfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoWindowController.m; sourceTree = "<group>"; };
+		F6FA6FDB28FD765000D06AB0 /* AnnotationRotateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationRotateController.m; sourceTree = "<group>"; };
+		F6FA6FDE28FD765000D06AB0 /* ShowMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkersViewController.h; sourceTree = "<group>"; };
+		F6FA6FDF28FD765000D06AB0 /* ShowMarkerCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMarkerCenterController.h; sourceTree = "<group>"; };
+		F6FA6FE028FD765000D06AB0 /* PointClusterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointClusterViewController.h; sourceTree = "<group>"; };
+		F6FA6FE128FD765000D06AB0 /* SetMapCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMapCenterViewController.m; sourceTree = "<group>"; };
+		F6FA6FE228FD765000D06AB0 /* GeofencingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofencingController.h; sourceTree = "<group>"; };
+		F6FA6FE328FD765000D06AB0 /* LimitMapRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitMapRectViewController.m; sourceTree = "<group>"; };
+		F6FA6FE428FD765000D06AB0 /* PickMapPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
+		F6FA6FE528FD765000D06AB0 /* PointClusterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointClusterViewController.m; sourceTree = "<group>"; };
+		F6FA6FE628FD765000D06AB0 /* ShowMarkerCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkerCenterController.m; sourceTree = "<group>"; };
+		F6FA6FE728FD765000D06AB0 /* ShowMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMarkersViewController.m; sourceTree = "<group>"; };
+		F6FA6FE828FD765000D06AB0 /* SetMapCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMapCenterViewController.h; sourceTree = "<group>"; };
+		F6FA6FE928FD765000D06AB0 /* LimitMapRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitMapRectViewController.h; sourceTree = "<group>"; };
+		F6FA6FEA28FD765000D06AB0 /* GeofencingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofencingController.m; sourceTree = "<group>"; };
+		F6FA6FEB28FD765000D06AB0 /* PickMapPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
+		F6FA6FEE28FD765000D06AB0 /* MutiInfoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotation.h; sourceTree = "<group>"; };
+		F6FA6FEF28FD765000D06AB0 /* CircleAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnnotationView.h; sourceTree = "<group>"; };
+		F6FA6FF028FD765000D06AB0 /* MutiInfoAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotationView.m; sourceTree = "<group>"; };
+		F6FA6FF228FD765000D06AB0 /* ImageInfoWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfoWindowView.h; sourceTree = "<group>"; };
+		F6FA6FF328FD765000D06AB0 /* TitleInfoWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleInfoWindowView.h; sourceTree = "<group>"; };
+		F6FA6FF428FD765000D06AB0 /* ImageInfoWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfoWindowView.m; sourceTree = "<group>"; };
+		F6FA6FF528FD765000D06AB0 /* TitleInfoWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleInfoWindowView.m; sourceTree = "<group>"; };
+		F6FA6FF628FD765000D06AB0 /* CircleAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnnotationView.m; sourceTree = "<group>"; };
+		F6FA6FF728FD765000D06AB0 /* MutiInfoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiInfoAnnotation.m; sourceTree = "<group>"; };
+		F6FA6FF828FD765000D06AB0 /* MutiInfoAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiInfoAnnotationView.h; sourceTree = "<group>"; };
+		F6FA6FFA28FD765000D06AB0 /* cluster.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cluster.txt; sourceTree = "<group>"; };
+		F6FA6FFB28FD765000D06AB0 /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
+		F6FA6FFC28FD765000D06AB0 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		F6FA6FFD28FD765000D06AB0 /* hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongbao.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FA6EB328FD72C500D06AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6FA6EAD28FD72C500D06AB0 = {
+			isa = PBXGroup;
+			children = (
+				F6FA6EB828FD72C500D06AB0 /* QMapScenariosDemo */,
+				F6FA6EB728FD72C500D06AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6FA6EB728FD72C500D06AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6EB628FD72C500D06AB0 /* QMapScenariosDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6FA6EB828FD72C500D06AB0 /* QMapScenariosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FA328FD765000D06AB0 /* Demos */,
+				F6FA6FF928FD765000D06AB0 /* Resources */,
+				F6FA6EB928FD72C500D06AB0 /* AppDelegate.h */,
+				F6FA6EBA28FD72C500D06AB0 /* AppDelegate.m */,
+				F6FA6EBF28FD72C500D06AB0 /* ViewController.h */,
+				F6FA6EC028FD72C500D06AB0 /* ViewController.m */,
+				F6FA6EC228FD72C500D06AB0 /* Main.storyboard */,
+				F6FA6EC528FD72C600D06AB0 /* Assets.xcassets */,
+				F6FA6EC728FD72C600D06AB0 /* LaunchScreen.storyboard */,
+				F6FA6ECA28FD72C600D06AB0 /* Info.plist */,
+				F6FA6ECB28FD72C600D06AB0 /* main.m */,
+			);
+			path = QMapScenariosDemo;
+			sourceTree = "<group>";
+		};
+		F6FA6FA328FD765000D06AB0 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FA428FD765000D06AB0 /* EntryData.h */,
+				F6FA6FA528FD765000D06AB0 /* EntryViewController.h */,
+				F6FA6FA628FD765000D06AB0 /* EntryViewController.m */,
+				F6FA6FA728FD765000D06AB0 /* EntryData.m */,
+				F6FA6FA828FD765000D06AB0 /* Controllers */,
+				F6FA6FED28FD765000D06AB0 /* Views */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		F6FA6FA828FD765000D06AB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FC028FD765000D06AB0 /* BaseMapViewController.h */,
+				F6FA6FB128FD765000D06AB0 /* BaseMapViewController.m */,
+				F6FA6FAE28FD765000D06AB0 /* Trail */,
+				F6FA6FB628FD765000D06AB0 /* Locaiton */,
+				F6FA6FBD28FD765000D06AB0 /* Gesture */,
+				F6FA6FC228FD765000D06AB0 /* Delivery */,
+				F6FA6FD128FD765000D06AB0 /* Overlay */,
+				F6FA6FDD28FD765000D06AB0 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6FA6FAE28FD765000D06AB0 /* Trail */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FAF28FD765000D06AB0 /* SmoothMoveViewController.h */,
+				F6FA6FB028FD765000D06AB0 /* SmoothMoveViewController.m */,
+			);
+			path = Trail;
+			sourceTree = "<group>";
+		};
+		F6FA6FB628FD765000D06AB0 /* Locaiton */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FB728FD765000D06AB0 /* LocationIconController.h */,
+				F6FA6FB828FD765000D06AB0 /* LocationCircleController.h */,
+				F6FA6FB928FD765000D06AB0 /* LocationCircleController.m */,
+				F6FA6FBA28FD765000D06AB0 /* LocationIconController.m */,
+			);
+			path = Locaiton;
+			sourceTree = "<group>";
+		};
+		F6FA6FBD28FD765000D06AB0 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FBE28FD765000D06AB0 /* CustomGestureViewController.m */,
+				F6FA6FBF28FD765000D06AB0 /* CustomGestureViewController.h */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		F6FA6FC228FD765000D06AB0 /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FC328FD765000D06AB0 /* DeliveryController.m */,
+				F6FA6FC428FD765000D06AB0 /* Model */,
+				F6FA6FC928FD765000D06AB0 /* View */,
+				F6FA6FCE28FD765000D06AB0 /* DeliveryController.h */,
+			);
+			path = Delivery;
+			sourceTree = "<group>";
+		};
+		F6FA6FC428FD765000D06AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FC528FD765000D06AB0 /* DeliveryGoodsModel.m */,
+				F6FA6FC628FD765000D06AB0 /* DeliveryModel.h */,
+				F6FA6FC728FD765000D06AB0 /* DeliveryGoodsModel.h */,
+				F6FA6FC828FD765000D06AB0 /* DeliveryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6FA6FC928FD765000D06AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FCA28FD765000D06AB0 /* DeliveryGoodsView.h */,
+				F6FA6FCB28FD765000D06AB0 /* DeliveryRouteView.h */,
+				F6FA6FCC28FD765000D06AB0 /* DeliveryGoodsView.m */,
+				F6FA6FCD28FD765000D06AB0 /* DeliveryRouteView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6FA6FD128FD765000D06AB0 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FD228FD765000D06AB0 /* ShowsPoiViewController.m */,
+				F6FA6FD328FD765000D06AB0 /* MutiInfoWindowController.h */,
+				F6FA6FD428FD765000D06AB0 /* MarkerAnimationController.m */,
+				F6FA6FD528FD765000D06AB0 /* HideBuildingController.h */,
+				F6FA6FD628FD765000D06AB0 /* AnnotationRotateController.h */,
+				F6FA6FD728FD765000D06AB0 /* ShowsPoiViewController.h */,
+				F6FA6FD828FD765000D06AB0 /* HideBuildingController.m */,
+				F6FA6FD928FD765000D06AB0 /* MarkerAnimationController.h */,
+				F6FA6FDA28FD765000D06AB0 /* MutiInfoWindowController.m */,
+				F6FA6FDB28FD765000D06AB0 /* AnnotationRotateController.m */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		F6FA6FDD28FD765000D06AB0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FDE28FD765000D06AB0 /* ShowMarkersViewController.h */,
+				F6FA6FDF28FD765000D06AB0 /* ShowMarkerCenterController.h */,
+				F6FA6FE028FD765000D06AB0 /* PointClusterViewController.h */,
+				F6FA6FE128FD765000D06AB0 /* SetMapCenterViewController.m */,
+				F6FA6FE228FD765000D06AB0 /* GeofencingController.h */,
+				F6FA6FE328FD765000D06AB0 /* LimitMapRectViewController.m */,
+				F6FA6FE428FD765000D06AB0 /* PickMapPointViewController.m */,
+				F6FA6FE528FD765000D06AB0 /* PointClusterViewController.m */,
+				F6FA6FE628FD765000D06AB0 /* ShowMarkerCenterController.m */,
+				F6FA6FE728FD765000D06AB0 /* ShowMarkersViewController.m */,
+				F6FA6FE828FD765000D06AB0 /* SetMapCenterViewController.h */,
+				F6FA6FE928FD765000D06AB0 /* LimitMapRectViewController.h */,
+				F6FA6FEA28FD765000D06AB0 /* GeofencingController.m */,
+				F6FA6FEB28FD765000D06AB0 /* PickMapPointViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F6FA6FED28FD765000D06AB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FEE28FD765000D06AB0 /* MutiInfoAnnotation.h */,
+				F6FA6FEF28FD765000D06AB0 /* CircleAnnotationView.h */,
+				F6FA6FF028FD765000D06AB0 /* MutiInfoAnnotationView.m */,
+				F6FA6FF128FD765000D06AB0 /* InfoWindow */,
+				F6FA6FF628FD765000D06AB0 /* CircleAnnotationView.m */,
+				F6FA6FF728FD765000D06AB0 /* MutiInfoAnnotation.m */,
+				F6FA6FF828FD765000D06AB0 /* MutiInfoAnnotationView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6FA6FF128FD765000D06AB0 /* InfoWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FF228FD765000D06AB0 /* ImageInfoWindowView.h */,
+				F6FA6FF328FD765000D06AB0 /* TitleInfoWindowView.h */,
+				F6FA6FF428FD765000D06AB0 /* ImageInfoWindowView.m */,
+				F6FA6FF528FD765000D06AB0 /* TitleInfoWindowView.m */,
+			);
+			path = InfoWindow;
+			sourceTree = "<group>";
+		};
+		F6FA6FF928FD765000D06AB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA6FFA28FD765000D06AB0 /* cluster.txt */,
+				F6FA6FFB28FD765000D06AB0 /* car@3x.png */,
+				F6FA6FFC28FD765000D06AB0 /* marker@2x.png */,
+				F6FA6FFD28FD765000D06AB0 /* hongbao.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6FA6EB528FD72C500D06AB0 /* QMapScenariosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FA6ECF28FD72C600D06AB0 /* Build configuration list for PBXNativeTarget "QMapScenariosDemo" */;
+			buildPhases = (
+				F6FA6EB228FD72C500D06AB0 /* Sources */,
+				F6FA6EB328FD72C500D06AB0 /* Frameworks */,
+				F6FA6EB428FD72C500D06AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMapScenariosDemo;
+			productName = QMapScenariosDemo;
+			productReference = F6FA6EB628FD72C500D06AB0 /* QMapScenariosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6FA6EAE28FD72C500D06AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F6FA6EB528FD72C500D06AB0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F6FA6EB128FD72C500D06AB0 /* Build configuration list for PBXProject "QMapScenariosDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6FA6EAD28FD72C500D06AB0;
+			productRefGroup = F6FA6EB728FD72C500D06AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6FA6EB528FD72C500D06AB0 /* QMapScenariosDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6FA6EB428FD72C500D06AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FA6EC928FD72C600D06AB0 /* LaunchScreen.storyboard in Resources */,
+				F6FA702528FD765000D06AB0 /* marker@2x.png in Resources */,
+				F6FA702628FD765000D06AB0 /* hongbao.png in Resources */,
+				F6FA6EC628FD72C600D06AB0 /* Assets.xcassets in Resources */,
+				F6FA702328FD765000D06AB0 /* cluster.txt in Resources */,
+				F6FA702428FD765000D06AB0 /* car@3x.png in Resources */,
+				F6FA6EC428FD72C500D06AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6FA6EB228FD72C500D06AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FA701528FD765000D06AB0 /* MutiInfoWindowController.m in Sources */,
+				F6FA701328FD765000D06AB0 /* MarkerAnimationController.m in Sources */,
+				F6FA700B28FD765000D06AB0 /* CustomGestureViewController.m in Sources */,
+				F6FA701728FD765000D06AB0 /* SetMapCenterViewController.m in Sources */,
+				F6FA700228FD765000D06AB0 /* SmoothMoveViewController.m in Sources */,
+				F6FA6FFF28FD765000D06AB0 /* EntryData.m in Sources */,
+				F6FA702028FD765000D06AB0 /* TitleInfoWindowView.m in Sources */,
+				F6FA700328FD765000D06AB0 /* BaseMapViewController.m in Sources */,
+				F6FA701F28FD765000D06AB0 /* ImageInfoWindowView.m in Sources */,
+				F6FA6FFE28FD765000D06AB0 /* EntryViewController.m in Sources */,
+				F6FA700D28FD765000D06AB0 /* DeliveryController.m in Sources */,
+				F6FA701E28FD765000D06AB0 /* MutiInfoAnnotationView.m in Sources */,
+				F6FA701628FD765000D06AB0 /* AnnotationRotateController.m in Sources */,
+				F6FA6EC128FD72C500D06AB0 /* ViewController.m in Sources */,
+				F6FA6EBB28FD72C500D06AB0 /* AppDelegate.m in Sources */,
+				F6FA702128FD765000D06AB0 /* CircleAnnotationView.m in Sources */,
+				F6FA700828FD765000D06AB0 /* LocationCircleController.m in Sources */,
+				F6FA701B28FD765000D06AB0 /* ShowMarkerCenterController.m in Sources */,
+				F6FA701828FD765000D06AB0 /* LimitMapRectViewController.m in Sources */,
+				F6FA701128FD765000D06AB0 /* DeliveryRouteView.m in Sources */,
+				F6FA700928FD765000D06AB0 /* LocationIconController.m in Sources */,
+				F6FA700E28FD765000D06AB0 /* DeliveryGoodsModel.m in Sources */,
+				F6FA701C28FD765000D06AB0 /* ShowMarkersViewController.m in Sources */,
+				F6FA701D28FD765000D06AB0 /* GeofencingController.m in Sources */,
+				F6FA701A28FD765000D06AB0 /* PointClusterViewController.m in Sources */,
+				F6FA701228FD765000D06AB0 /* ShowsPoiViewController.m in Sources */,
+				F6FA701028FD765000D06AB0 /* DeliveryGoodsView.m in Sources */,
+				F6FA700F28FD765000D06AB0 /* DeliveryModel.m in Sources */,
+				F6FA6ECC28FD72C600D06AB0 /* main.m in Sources */,
+				F6FA702228FD765000D06AB0 /* MutiInfoAnnotation.m in Sources */,
+				F6FA701928FD765000D06AB0 /* PickMapPointViewController.m in Sources */,
+				F6FA701428FD765000D06AB0 /* HideBuildingController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6FA6EC228FD72C500D06AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FA6EC328FD72C500D06AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6FA6EC728FD72C600D06AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FA6EC828FD72C600D06AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6FA6ECD28FD72C600D06AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6FA6ECE28FD72C600D06AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FA6ED028FD72C600D06AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QMapScenariosDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LBS.tencent.QMapScenariosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6FA6ED128FD72C600D06AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QMapScenariosDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LBS.tencent.QMapScenariosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6FA6EB128FD72C500D06AB0 /* Build configuration list for PBXProject "QMapScenariosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FA6ECD28FD72C600D06AB0 /* Debug */,
+				F6FA6ECE28FD72C600D06AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FA6ECF28FD72C600D06AB0 /* Build configuration list for PBXNativeTarget "QMapScenariosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FA6ED028FD72C600D06AB0 /* Debug */,
+				F6FA6ED128FD72C600D06AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6FA6EAE28FD72C500D06AB0 /* Project object */;
+}
