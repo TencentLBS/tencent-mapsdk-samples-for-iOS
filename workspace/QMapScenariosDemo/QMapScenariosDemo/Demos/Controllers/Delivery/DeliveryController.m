@@ -443,6 +443,11 @@
         _index = 0;
     }
     
+    if (_index > self.mapView.annotations.count)
+    {
+        return;
+    }
+    
     QPointAnnotation *annotation = self.mapView.annotations[_index];
     
     _carAnnotation.coordinate = annotation.coordinate;
