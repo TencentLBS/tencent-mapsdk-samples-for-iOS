@@ -1,5 +1,5 @@
 platform :ios, "9.0" 						#手机系统版本
-target "QMapScenarioDemo" do					#工程的名字
+target "QMapScenariosDemo" do					#工程的名字
   pod 'Tencent-MapSDK'					#地图SDK
 end
 
