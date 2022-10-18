@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  QMapScenarioDemo
+//  QMapScenariosDemo
 //
 //  Created by KeithCao on 2022/10/17.
 //
