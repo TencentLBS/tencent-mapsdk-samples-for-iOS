@@ -1,6 +1,9 @@
-platform :ios, "9.0" 						#手机系统版本
+platform :ios, "11.0" 						#手机系统版本
 target "QMapScenariosDemo" do					#工程的名字
-  pod 'Tencent-MapSDK'					#地图SDK
+  pod 'Tencent-MapSDK', '5.7.0'
+  pod 'Tencent-MapVisualPlugin', '>=3.1.3'
+  pod 'Tencent-MapFoundation', '>=4.1.0'
+  pod 'Tencent-MapUtils', '>=1.2.4'
 end
 
 #当有多个target时，不同的target也需要各自设置

@@ -29,7 +29,8 @@ DerivedData/
 *.ipa
 *.dSYM.zip
 *.dSYM
-
+Pods/
+workspace/QMapScenariosDemo/Pods
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However

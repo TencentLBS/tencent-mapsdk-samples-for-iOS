@@ -22,8 +22,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Configure API Key.
-    [QMapServices sharedServices].APIKey = @"您的Key";
-    [QMSSearchServices sharedServices].apiKey = @"您的Key";
+    [QMapServices sharedServices].APIKey = @"";
+    [QMSSearchServices sharedServices].apiKey = @"";
     
     if ([QMapServices sharedServices].APIKey.length == 0 || [QMSSearchServices sharedServices].apiKey.length == 0)
     {

@@ -160,6 +160,14 @@
             
             [cellArray addObject:cell];
         }
+        {
+            Cell *cell = [[Cell alloc] init];
+            
+            cell.title = @"渐变色线";
+            cell.controllerClassName = @"GradientLineViewController";
+            
+            [cellArray addObject:cell];
+        }
     }
     
     // Route Animation Section.
