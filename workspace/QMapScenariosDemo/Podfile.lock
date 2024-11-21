@@ -1,6 +1,6 @@
 PODS:
-  - Tencent-MapFoundation (4.1.2)
-  - Tencent-MapSDK (5.7.0):
+  - Tencent-MapFoundation (4.1.5)
+  - Tencent-MapSDK (6.1.0):
     - Tencent-MapFoundation (>= 4.1.0)
   - Tencent-MapUtils (1.2.4):
     - Tencent-MapSDK (>= 5.1.0)
@@ -8,8 +8,8 @@ PODS:
     - Tencent-MapSDK (>= 5.1.0)
 
 DEPENDENCIES:
-  - Tencent-MapFoundation (>= 4.1.0)
-  - Tencent-MapSDK (= 5.7.0)
+  - Tencent-MapFoundation (>= 4.1.5)
+  - Tencent-MapSDK (= 6.1.0)
   - Tencent-MapUtils (>= 1.2.4)
   - Tencent-MapVisualPlugin (>= 3.1.3)
 
@@ -21,11 +21,11 @@ SPEC REPOS:
     - Tencent-MapVisualPlugin
 
 SPEC CHECKSUMS:
-  Tencent-MapFoundation: 18eca283d7ef6ddf9d795f9099f6b0cdb35b2113
-  Tencent-MapSDK: 9641af73133fe70203903d316712f4bc72802068
+  Tencent-MapFoundation: fb7ecbb623b799ea5714d80d7b5e1b99cc47cd1a
+  Tencent-MapSDK: 74809f376e8baaae36fa1a17f76ade909e99224b
   Tencent-MapUtils: b1a5c4578465cde2f6790aed720b98ca79eb2c61
   Tencent-MapVisualPlugin: a0a80d6df872adb889ab4c64e2915dddfada1d51
 
-PODFILE CHECKSUM: afa89c4512cf7421082d286dd71613c5663f7d5b
+PODFILE CHECKSUM: 3ea63b15956d933934243f109a934dfb511528f8
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

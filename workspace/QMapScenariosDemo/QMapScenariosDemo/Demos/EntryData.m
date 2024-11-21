@@ -257,6 +257,16 @@
             
             [cellArray addObject:cell];
         }
+        {
+            Cell *cell = [[Cell alloc] init];
+        
+            cell.title = @"截图";
+            cell.controllerClassName = @"SnapShotViewController";
+        
+            [cellArray addObject:cell];
+        }
+      
+      
     }
     
     return entry;
