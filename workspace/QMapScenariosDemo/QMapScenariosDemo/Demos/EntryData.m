@@ -168,6 +168,16 @@
             
             [cellArray addObject:cell];
         }
+        
+        
+        {
+            Cell *cell = [[Cell alloc] init];
+            
+            cell.title = @"点虚线";
+            cell.controllerClassName = @"DotTextrurePolylineViewController";
+            
+            [cellArray addObject:cell];
+        }
     }
     
     // Route Animation Section.

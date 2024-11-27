@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6C51DD69404821A0D00A49FE /* libPods-QMapScenariosDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4A34A924AB82DD4FC6DA17 /* libPods-QMapScenariosDemo.a */; };
 		DCB7FC4B2CE31BCA008700B9 /* GradientLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB7FC4A2CE31BC9008700B9 /* GradientLineViewController.m */; };
+		F63A41E22CF7332A004DCE60 /* Demos in Resources */ = {isa = PBXBuildFile; fileRef = F63A41E12CF7332A004DCE60 /* Demos */; };
+		F63A41E52CF733B9004DCE60 /* DotTextrurePolylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A41E42CF733B9004DCE60 /* DotTextrurePolylineViewController.m */; };
+		F63A41E72CF73493004DCE60 /* color_point_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = F63A41E62CF73493004DCE60 /* color_point_texture.png */; };
 		F6FA6EBB28FD72C500D06AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6EBA28FD72C500D06AB0 /* AppDelegate.m */; };
 		F6FA6EC128FD72C500D06AB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6EC028FD72C500D06AB0 /* ViewController.m */; };
 		F6FA6EC428FD72C500D06AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6EC228FD72C500D06AB0 /* Main.storyboard */; };
@@ -56,6 +59,10 @@
 		DCB7FC492CE31BBD008700B9 /* GradientLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientLineViewController.h; sourceTree = "<group>"; };
 		DCB7FC4A2CE31BC9008700B9 /* GradientLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientLineViewController.m; sourceTree = "<group>"; };
 		E101CBFC67F7FAB35D424CBD /* Pods-QMapScenariosDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMapScenariosDemo.release.xcconfig"; path = "Target Support Files/Pods-QMapScenariosDemo/Pods-QMapScenariosDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F63A41E12CF7332A004DCE60 /* Demos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demos; sourceTree = "<group>"; };
+		F63A41E32CF733B9004DCE60 /* DotTextrurePolylineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DotTextrurePolylineViewController.h; sourceTree = "<group>"; };
+		F63A41E42CF733B9004DCE60 /* DotTextrurePolylineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotTextrurePolylineViewController.m; sourceTree = "<group>"; };
+		F63A41E62CF73493004DCE60 /* color_point_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_point_texture.png; sourceTree = "<group>"; };
 		F6FA6EB628FD72C500D06AB0 /* QMapScenariosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapScenariosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA6EB928FD72C500D06AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6FA6EBA28FD72C500D06AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,10 +136,6 @@
 		F6FA6FFC28FD765000D06AB0 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
 		F6FA6FFD28FD765000D06AB0 /* hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongbao.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DC3113372CEF0881006647FA /* Demos */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Demos; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F6FA6EB328FD72C500D06AB0 /* Frameworks */ = {
@@ -215,7 +218,7 @@
 		F6FA6FA828FD765000D06AB0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DC3113372CEF0881006647FA /* Demos */,
+				F63A41E12CF7332A004DCE60 /* Demos */,
 				F6FA6FC028FD765000D06AB0 /* BaseMapViewController.h */,
 				F6FA6FB128FD765000D06AB0 /* BaseMapViewController.m */,
 				F6FA6FAE28FD765000D06AB0 /* Trail */,
@@ -297,14 +300,16 @@
 				DCB7FC492CE31BBD008700B9 /* GradientLineViewController.h */,
 				F6FA6FD228FD765000D06AB0 /* ShowsPoiViewController.m */,
 				F6FA6FD328FD765000D06AB0 /* MutiInfoWindowController.h */,
+				F6FA6FD928FD765000D06AB0 /* MarkerAnimationController.h */,
 				F6FA6FD428FD765000D06AB0 /* MarkerAnimationController.m */,
 				F6FA6FD528FD765000D06AB0 /* HideBuildingController.h */,
 				F6FA6FD628FD765000D06AB0 /* AnnotationRotateController.h */,
 				F6FA6FD728FD765000D06AB0 /* ShowsPoiViewController.h */,
 				F6FA6FD828FD765000D06AB0 /* HideBuildingController.m */,
-				F6FA6FD928FD765000D06AB0 /* MarkerAnimationController.h */,
 				F6FA6FDA28FD765000D06AB0 /* MutiInfoWindowController.m */,
 				F6FA6FDB28FD765000D06AB0 /* AnnotationRotateController.m */,
+				F63A41E32CF733B9004DCE60 /* DotTextrurePolylineViewController.h */,
+				F63A41E42CF733B9004DCE60 /* DotTextrurePolylineViewController.m */,
 			);
 			path = Overlay;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 		F6FA6FF928FD765000D06AB0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F63A41E62CF73493004DCE60 /* color_point_texture.png */,
 				F6FA6FFA28FD765000D06AB0 /* cluster.txt */,
 				F6FA6FFB28FD765000D06AB0 /* car@3x.png */,
 				F6FA6FFC28FD765000D06AB0 /* marker@2x.png */,
@@ -382,9 +388,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DC3113372CEF0881006647FA /* Demos */,
 			);
 			name = QMapScenariosDemo;
 			productName = QMapScenariosDemo;
@@ -433,7 +436,9 @@
 				F6FA702628FD765000D06AB0 /* hongbao.png in Resources */,
 				F6FA6EC628FD72C600D06AB0 /* Assets.xcassets in Resources */,
 				F6FA702328FD765000D06AB0 /* cluster.txt in Resources */,
+				F63A41E22CF7332A004DCE60 /* Demos in Resources */,
 				F6FA702428FD765000D06AB0 /* car@3x.png in Resources */,
+				F63A41E72CF73493004DCE60 /* color_point_texture.png in Resources */,
 				F6FA6EC428FD72C500D06AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6FA701528FD765000D06AB0 /* MutiInfoWindowController.m in Sources */,
+				F63A41E52CF733B9004DCE60 /* DotTextrurePolylineViewController.m in Sources */,
 				F6FA701328FD765000D06AB0 /* MarkerAnimationController.m in Sources */,
 				F6FA700B28FD765000D06AB0 /* CustomGestureViewController.m in Sources */,
 				F6FA701728FD765000D06AB0 /* SetMapCenterViewController.m in Sources */,
